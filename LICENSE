@@ -19,8 +19,3 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-
-This licence covers the project software and original documentation. It does
-not relicense third-party source data. Bundesnetzagentur | SMARD.de market data
-and derived data artifacts are attributed under CC BY 4.0 as documented in
-docs/data_and_provenance.md.
