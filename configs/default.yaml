@@ -1,0 +1,33 @@
+random_seed: 2027
+data:
+  source: smard
+  bidding_zone: DE-LU
+  start_date: 2023-01-01
+  end_date: 2025-12-31
+  market_timezone: Europe/Berlin
+  unit: EUR/MWh
+  smard_base_url: https://www.smard.de/app/chart_data
+  smard_series_id: 4169
+  energy_charts_url: https://api.energy-charts.info/price
+splits:
+  train_end: 2023-12-31
+  validation_end: 2024-12-31
+  test_end: 2025-12-31
+forecast:
+  ridge_alphas: [0.1, 1.0, 10.0, 100.0]
+  tree_learning_rates: [0.05, 0.1]
+  tree_max_leaf_nodes: [15, 31]
+  tree_max_iter: 250
+  retraining_frequency: monthly
+  bootstrap_samples: 1000
+battery:
+  energy_capacity_mwh: 2.0
+  max_charge_power_mw: 1.0
+  max_discharge_power_mw: 1.0
+  min_soc_mwh: 0.0
+  max_soc_mwh: 2.0
+  initial_soc_mwh: 1.0
+  terminal_soc_mwh: 1.0
+  charge_efficiency: 0.95
+  discharge_efficiency: 0.95
+  degradation_cost_eur_per_mwh: 2.0
