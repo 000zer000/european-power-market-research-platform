@@ -1,0 +1,86 @@
+{
+  "period": {
+    "start": "2025-01-01",
+    "end": "2025-12-31"
+  },
+  "unit": "EUR/MWh",
+  "directional_metric_definition": "Sign of forecast minus previous-day price equals sign of actual minus previous-day price; actual ties excluded.",
+  "extreme_definition": "Absolute actual price >= test-set 95th percentile (162.6655 EUR/MWh); used for evaluation only.",
+  "overall": {
+    "previous_day": {
+      "mae_eur_per_mwh": 25.96538812785388,
+      "rmse_eur_per_mwh": 40.44586275103795,
+      "directional_accuracy_vs_previous_day": null
+    },
+    "previous_week": {
+      "mae_eur_per_mwh": 32.82968150684932,
+      "rmse_eur_per_mwh": 49.33246225701878,
+      "directional_accuracy_vs_previous_day": 0.640928849233585
+    },
+    "ridge": {
+      "mae_eur_per_mwh": 23.374589652900706,
+      "rmse_eur_per_mwh": 33.852217562503725,
+      "directional_accuracy_vs_previous_day": 0.6447037291237703
+    },
+    "hist_gradient_boosting": {
+      "mae_eur_per_mwh": 24.379948287159298,
+      "rmse_eur_per_mwh": 35.511596362235444,
+      "directional_accuracy_vs_previous_day": 0.6427590940288264
+    }
+  },
+  "slices": {
+    "negative_price": {
+      "previous_day": {
+        "mae_eur_per_mwh": 27.078778359511343,
+        "observations": 573
+      },
+      "previous_week": {
+        "mae_eur_per_mwh": 42.6962652705061,
+        "observations": 573
+      },
+      "ridge": {
+        "mae_eur_per_mwh": 32.07633462536222,
+        "observations": 573
+      },
+      "hist_gradient_boosting": {
+        "mae_eur_per_mwh": 34.07544057249221,
+        "observations": 573
+      }
+    },
+    "extreme_absolute_price_top_5pct": {
+      "previous_day": {
+        "mae_eur_per_mwh": 70.54605022831049,
+        "observations": 438
+      },
+      "previous_week": {
+        "mae_eur_per_mwh": 76.27116438356164,
+        "observations": 438
+      },
+      "ridge": {
+        "mae_eur_per_mwh": 64.09601327095797,
+        "observations": 438
+      },
+      "hist_gradient_boosting": {
+        "mae_eur_per_mwh": 65.62465071688031,
+        "observations": 438
+      }
+    }
+  },
+  "best_naive_by_validation_independent_test_metric": "previous_day",
+  "bootstrap_vs_best_naive": {
+    "ridge": {
+      "mean_mae_difference_eur_per_mwh": -2.595105673840493,
+      "ci_95_lower": -3.8224735941202557,
+      "ci_95_upper": -1.408276519619535,
+      "resampling_unit": "local delivery day",
+      "bootstrap_samples": 1000
+    },
+    "hist_gradient_boosting": {
+      "mean_mae_difference_eur_per_mwh": -1.5913289663147783,
+      "ci_95_lower": -3.2330566650028625,
+      "ci_95_upper": -0.0709551980529828,
+      "resampling_unit": "local delivery day",
+      "bootstrap_samples": 1000
+    }
+  }
+}

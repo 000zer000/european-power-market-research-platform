@@ -1,0 +1,9 @@
+{
+  "selection_period": "2024-01-01 through 2024-12-31",
+  "final_test_period_not_used": "2025-01-01 through 2025-12-31",
+  "retraining": "Monthly expanding window during final test evaluation",
+  "ridge_alpha": 100.0,
+  "tree_learning_rate": 0.1,
+  "tree_max_leaf_nodes": 31,
+  "random_seed": 2027
+}

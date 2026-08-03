@@ -1,0 +1,1607 @@
+{
+  "provider": "Bundesnetzagentur | SMARD.de",
+  "series": "Day-ahead price, Germany/Luxembourg",
+  "series_id": 4169,
+  "licence": "CC BY 4.0",
+  "licence_url": "https://www.smard.de/en/datennutzung",
+  "entries": [
+    {
+      "source_url": "https://www.smard.de/app/chart_data/4169/DE-LU/index_hour.json",
+      "request_parameters": {},
+      "downloaded_at_utc": "2026-08-03T18:29:11.345201+00:00",
+      "manifested_at_utc": "2026-08-03T18:59:08.451516+00:00",
+      "cache_hit": true,
+      "local_cache_path": "data/raw/smard/index_hour.json",
+      "sha256": "c7f8fbf12c82da941dcd3871466e729cbfa52509c8694e46a160adfcf23dc03d",
+      "unit": "EUR/MWh"
+    },
+    {
+      "source_url": "https://www.smard.de/app/chart_data/4169/DE-LU/4169_DE-LU_hour_1672009200000.json",
+      "request_parameters": {},
+      "downloaded_at_utc": "2026-08-03T18:29:11.576698+00:00",
+      "manifested_at_utc": "2026-08-03T18:59:08.451848+00:00",
+      "cache_hit": true,
+      "local_cache_path": "data/raw/smard/4169_DE-LU_hour_1672009200000.json",
+      "sha256": "f43de098e4842073c3a44e92960b48b7e2ac52aff13fb012c01e472d1c24b17c",
+      "unit": "EUR/MWh"
+    },
+    {
+      "source_url": "https://www.smard.de/app/chart_data/4169/DE-LU/4169_DE-LU_hour_1672614000000.json",
+      "request_parameters": {},
+      "downloaded_at_utc": "2026-08-03T18:29:11.779642+00:00",
+      "manifested_at_utc": "2026-08-03T18:59:08.453831+00:00",
+      "cache_hit": true,
+      "local_cache_path": "data/raw/smard/4169_DE-LU_hour_1672614000000.json",
+      "sha256": "2d1745ee9959bccf83d444fc04f5aae2b5f2fa21ef83c8852812fbd85fb3ef41",
+      "unit": "EUR/MWh"
+    },
+    {
+      "source_url": "https://www.smard.de/app/chart_data/4169/DE-LU/4169_DE-LU_hour_1673218800000.json",
+      "request_parameters": {},
+      "downloaded_at_utc": "2026-08-03T18:29:12.008562+00:00",
+      "manifested_at_utc": "2026-08-03T18:59:08.454423+00:00",
+      "cache_hit": true,
+      "local_cache_path": "data/raw/smard/4169_DE-LU_hour_1673218800000.json",
+      "sha256": "27214bca62037d187881d977b3879f77b34188dd8c35f819e3d4c1dcccd60d9b",
+      "unit": "EUR/MWh"
+    },
+    {
+      "source_url": "https://www.smard.de/app/chart_data/4169/DE-LU/4169_DE-LU_hour_1673823600000.json",
+      "request_parameters": {},
+      "downloaded_at_utc": "2026-08-03T18:29:12.253928+00:00",
+      "manifested_at_utc": "2026-08-03T18:59:08.454987+00:00",
+      "cache_hit": true,
+      "local_cache_path": "data/raw/smard/4169_DE-LU_hour_1673823600000.json",
+      "sha256": "7a879bdb32e6696019abd4735aba0b47ed88c21fc5dd95612aaef7151a7cd5dc",
+      "unit": "EUR/MWh"
+    },
+    {
+      "source_url": "https://www.smard.de/app/chart_data/4169/DE-LU/4169_DE-LU_hour_1674428400000.json",
+      "request_parameters": {},
+      "downloaded_at_utc": "2026-08-03T18:29:12.498076+00:00",
+      "manifested_at_utc": "2026-08-03T18:59:08.455517+00:00",
+      "cache_hit": true,
+      "local_cache_path": "data/raw/smard/4169_DE-LU_hour_1674428400000.json",
+      "sha256": "e3f120794058fcea2fbb253dbc2ef2856cb8ed9cdd65bf75bfe5e2d633ddae5c",
+      "unit": "EUR/MWh"
+    },
+    {
+      "source_url": "https://www.smard.de/app/chart_data/4169/DE-LU/4169_DE-LU_hour_1675033200000.json",
+      "request_parameters": {},
+      "downloaded_at_utc": "2026-08-03T18:29:13.787646+00:00",
+      "manifested_at_utc": "2026-08-03T18:59:08.456593+00:00",
+      "cache_hit": true,
+      "local_cache_path": "data/raw/smard/4169_DE-LU_hour_1675033200000.json",
+      "sha256": "e10ca1b21eef3cd7983c7fbfe00c711a93ccb03f9f3a19cfa6f3aa2856cf10bc",
+      "unit": "EUR/MWh"
+    },
+    {
+      "source_url": "https://www.smard.de/app/chart_data/4169/DE-LU/4169_DE-LU_hour_1675638000000.json",
+      "request_parameters": {},
+      "downloaded_at_utc": "2026-08-03T18:29:14.315927+00:00",
+      "manifested_at_utc": "2026-08-03T18:59:08.457003+00:00",
+      "cache_hit": true,
+      "local_cache_path": "data/raw/smard/4169_DE-LU_hour_1675638000000.json",
+      "sha256": "ec30e1863460be058ecd77167999aecf8e2a6cd949300e39b6c9f0628e51a31c",
+      "unit": "EUR/MWh"
+    },
+    {
+      "source_url": "https://www.smard.de/app/chart_data/4169/DE-LU/4169_DE-LU_hour_1676242800000.json",
+      "request_parameters": {},
+      "downloaded_at_utc": "2026-08-03T18:29:14.527404+00:00",
+      "manifested_at_utc": "2026-08-03T18:59:08.457370+00:00",
+      "cache_hit": true,
+      "local_cache_path": "data/raw/smard/4169_DE-LU_hour_1676242800000.json",
+      "sha256": "ad5a042fcff4f67cbf7d90a3bb96b80c3bc22a004021ca2adfab6f1a92802ad5",
+      "unit": "EUR/MWh"
+    },
+    {
+      "source_url": "https://www.smard.de/app/chart_data/4169/DE-LU/4169_DE-LU_hour_1676847600000.json",
+      "request_parameters": {},
+      "downloaded_at_utc": "2026-08-03T18:29:14.776219+00:00",
+      "manifested_at_utc": "2026-08-03T18:59:08.457730+00:00",
+      "cache_hit": true,
+      "local_cache_path": "data/raw/smard/4169_DE-LU_hour_1676847600000.json",
+      "sha256": "409ff597a183e24d58879f650b18252cd6dc2d419186fa47c474fb8e23e3811a",
+      "unit": "EUR/MWh"
+    },
+    {
+      "source_url": "https://www.smard.de/app/chart_data/4169/DE-LU/4169_DE-LU_hour_1677452400000.json",
+      "request_parameters": {},
+      "downloaded_at_utc": "2026-08-03T18:29:14.988239+00:00",
+      "manifested_at_utc": "2026-08-03T18:59:08.458088+00:00",
+      "cache_hit": true,
+      "local_cache_path": "data/raw/smard/4169_DE-LU_hour_1677452400000.json",
+      "sha256": "8fbc9782e134078c9abffb750bd72f8400046811aa7dfabf5556c38ae6560cc8",
+      "unit": "EUR/MWh"
+    },
+    {
+      "source_url": "https://www.smard.de/app/chart_data/4169/DE-LU/4169_DE-LU_hour_1678057200000.json",
+      "request_parameters": {},
+      "downloaded_at_utc": "2026-08-03T18:29:15.214506+00:00",
+      "manifested_at_utc": "2026-08-03T18:59:08.458445+00:00",
+      "cache_hit": true,
+      "local_cache_path": "data/raw/smard/4169_DE-LU_hour_1678057200000.json",
+      "sha256": "0165bc49f9e1ce4157dd2748bf3b98260c5d430a2b51af0b7318c4899687f740",
+      "unit": "EUR/MWh"
+    },
+    {
+      "source_url": "https://www.smard.de/app/chart_data/4169/DE-LU/4169_DE-LU_hour_1678662000000.json",
+      "request_parameters": {},
+      "downloaded_at_utc": "2026-08-03T18:29:15.417320+00:00",
+      "manifested_at_utc": "2026-08-03T18:59:08.458801+00:00",
+      "cache_hit": true,
+      "local_cache_path": "data/raw/smard/4169_DE-LU_hour_1678662000000.json",
+      "sha256": "57794af57b7be8d52213bec35a337824ba172f6b1f3f052ad62fc56da142eff3",
+      "unit": "EUR/MWh"
+    },
+    {
+      "source_url": "https://www.smard.de/app/chart_data/4169/DE-LU/4169_DE-LU_hour_1679266800000.json",
+      "request_parameters": {},
+      "downloaded_at_utc": "2026-08-03T18:29:15.634173+00:00",
+      "manifested_at_utc": "2026-08-03T18:59:08.459152+00:00",
+      "cache_hit": true,
+      "local_cache_path": "data/raw/smard/4169_DE-LU_hour_1679266800000.json",
+      "sha256": "1085b6e4e361d71db45352df1b58debee33fd5a5ba07c184f6218fa6b45fcc57",
+      "unit": "EUR/MWh"
+    },
+    {
+      "source_url": "https://www.smard.de/app/chart_data/4169/DE-LU/4169_DE-LU_hour_1679868000000.json",
+      "request_parameters": {},
+      "downloaded_at_utc": "2026-08-03T18:29:15.860314+00:00",
+      "manifested_at_utc": "2026-08-03T18:59:08.459527+00:00",
+      "cache_hit": true,
+      "local_cache_path": "data/raw/smard/4169_DE-LU_hour_1679868000000.json",
+      "sha256": "76c347c8863dcdffd124c887cea82257fba613c2119191365c642ab9653ca6e5",
+      "unit": "EUR/MWh"
+    },
+    {
+      "source_url": "https://www.smard.de/app/chart_data/4169/DE-LU/4169_DE-LU_hour_1680472800000.json",
+      "request_parameters": {},
+      "downloaded_at_utc": "2026-08-03T18:29:16.084769+00:00",
+      "manifested_at_utc": "2026-08-03T18:59:08.459975+00:00",
+      "cache_hit": true,
+      "local_cache_path": "data/raw/smard/4169_DE-LU_hour_1680472800000.json",
+      "sha256": "10612391d4516fc1db94589efa4c47740d0a2ce07cd7faacdfb3fbaa7a000830",
+      "unit": "EUR/MWh"
+    },
+    {
+      "source_url": "https://www.smard.de/app/chart_data/4169/DE-LU/4169_DE-LU_hour_1681077600000.json",
+      "request_parameters": {},
+      "downloaded_at_utc": "2026-08-03T18:29:16.304592+00:00",
+      "manifested_at_utc": "2026-08-03T18:59:08.460464+00:00",
+      "cache_hit": true,
+      "local_cache_path": "data/raw/smard/4169_DE-LU_hour_1681077600000.json",
+      "sha256": "628518dc5f6a5b27cc103e5b6da7608fe2dcfdd9fa85d32bf80b41619d6f0a45",
+      "unit": "EUR/MWh"
+    },
+    {
+      "source_url": "https://www.smard.de/app/chart_data/4169/DE-LU/4169_DE-LU_hour_1681682400000.json",
+      "request_parameters": {},
+      "downloaded_at_utc": "2026-08-03T18:29:16.537368+00:00",
+      "manifested_at_utc": "2026-08-03T18:59:08.461377+00:00",
+      "cache_hit": true,
+      "local_cache_path": "data/raw/smard/4169_DE-LU_hour_1681682400000.json",
+      "sha256": "bcbd36cab82565379604062a59baecba2cf44be499da837f6de91a9606a58822",
+      "unit": "EUR/MWh"
+    },
+    {
+      "source_url": "https://www.smard.de/app/chart_data/4169/DE-LU/4169_DE-LU_hour_1682287200000.json",
+      "request_parameters": {},
+      "downloaded_at_utc": "2026-08-03T18:29:16.821301+00:00",
+      "manifested_at_utc": "2026-08-03T18:59:08.461722+00:00",
+      "cache_hit": true,
+      "local_cache_path": "data/raw/smard/4169_DE-LU_hour_1682287200000.json",
+      "sha256": "a89aba4d6b40ec3a57b77ada17fa9fe4a7730714837c74329935b099a97a6b40",
+      "unit": "EUR/MWh"
+    },
+    {
+      "source_url": "https://www.smard.de/app/chart_data/4169/DE-LU/4169_DE-LU_hour_1682892000000.json",
+      "request_parameters": {},
+      "downloaded_at_utc": "2026-08-03T18:29:17.083875+00:00",
+      "manifested_at_utc": "2026-08-03T18:59:08.463664+00:00",
+      "cache_hit": true,
+      "local_cache_path": "data/raw/smard/4169_DE-LU_hour_1682892000000.json",
+      "sha256": "ed8de36d65cf971cdd318ed71990b8e2e2d98955cb3ae3b2dc37d5b89dc8f232",
+      "unit": "EUR/MWh"
+    },
+    {
+      "source_url": "https://www.smard.de/app/chart_data/4169/DE-LU/4169_DE-LU_hour_1683496800000.json",
+      "request_parameters": {},
+      "downloaded_at_utc": "2026-08-03T18:29:17.295845+00:00",
+      "manifested_at_utc": "2026-08-03T18:59:08.464110+00:00",
+      "cache_hit": true,
+      "local_cache_path": "data/raw/smard/4169_DE-LU_hour_1683496800000.json",
+      "sha256": "295169fbee50e80cff1547565de659bbe5e498d3026cffa5a6df507fb6b411c9",
+      "unit": "EUR/MWh"
+    },
+    {
+      "source_url": "https://www.smard.de/app/chart_data/4169/DE-LU/4169_DE-LU_hour_1684101600000.json",
+      "request_parameters": {},
+      "downloaded_at_utc": "2026-08-03T18:29:17.539976+00:00",
+      "manifested_at_utc": "2026-08-03T18:59:08.465286+00:00",
+      "cache_hit": true,
+      "local_cache_path": "data/raw/smard/4169_DE-LU_hour_1684101600000.json",
+      "sha256": "a63fde12b27a3a03c08b3c8937a1b01be6095d41fd753a89a4b3179a4ec5dcf4",
+      "unit": "EUR/MWh"
+    },
+    {
+      "source_url": "https://www.smard.de/app/chart_data/4169/DE-LU/4169_DE-LU_hour_1684706400000.json",
+      "request_parameters": {},
+      "downloaded_at_utc": "2026-08-03T18:29:17.829893+00:00",
+      "manifested_at_utc": "2026-08-03T18:59:08.465640+00:00",
+      "cache_hit": true,
+      "local_cache_path": "data/raw/smard/4169_DE-LU_hour_1684706400000.json",
+      "sha256": "144dd8541735bce2c80f171a0a69d13be99df8d283f07ac9505315aaba8e14cf",
+      "unit": "EUR/MWh"
+    },
+    {
+      "source_url": "https://www.smard.de/app/chart_data/4169/DE-LU/4169_DE-LU_hour_1685311200000.json",
+      "request_parameters": {},
+      "downloaded_at_utc": "2026-08-03T18:29:18.078039+00:00",
+      "manifested_at_utc": "2026-08-03T18:59:08.465977+00:00",
+      "cache_hit": true,
+      "local_cache_path": "data/raw/smard/4169_DE-LU_hour_1685311200000.json",
+      "sha256": "ac2ed9125b2daa6c24fc2c1732c59704097d22ab5f040ac1e3261be29050b629",
+      "unit": "EUR/MWh"
+    },
+    {
+      "source_url": "https://www.smard.de/app/chart_data/4169/DE-LU/4169_DE-LU_hour_1685916000000.json",
+      "request_parameters": {},
+      "downloaded_at_utc": "2026-08-03T18:29:18.446575+00:00",
+      "manifested_at_utc": "2026-08-03T18:59:08.466489+00:00",
+      "cache_hit": true,
+      "local_cache_path": "data/raw/smard/4169_DE-LU_hour_1685916000000.json",
+      "sha256": "ada7fc342b0d11cdaaacbd25dbe11055684da2e0b3f3be1957275bc15a2b5db6",
+      "unit": "EUR/MWh"
+    },
+    {
+      "source_url": "https://www.smard.de/app/chart_data/4169/DE-LU/4169_DE-LU_hour_1686520800000.json",
+      "request_parameters": {},
+      "downloaded_at_utc": "2026-08-03T18:29:18.782892+00:00",
+      "manifested_at_utc": "2026-08-03T18:59:08.466954+00:00",
+      "cache_hit": true,
+      "local_cache_path": "data/raw/smard/4169_DE-LU_hour_1686520800000.json",
+      "sha256": "82da77caf774d999bfe53f25e2d7434e171382ef276f0e5ffd6778f3d830ae6d",
+      "unit": "EUR/MWh"
+    },
+    {
+      "source_url": "https://www.smard.de/app/chart_data/4169/DE-LU/4169_DE-LU_hour_1687125600000.json",
+      "request_parameters": {},
+      "downloaded_at_utc": "2026-08-03T18:29:19.090675+00:00",
+      "manifested_at_utc": "2026-08-03T18:59:08.467664+00:00",
+      "cache_hit": true,
+      "local_cache_path": "data/raw/smard/4169_DE-LU_hour_1687125600000.json",
+      "sha256": "99c0d012a8d3c2a06ca477e4b40b8a13a88a65d096058fd46033965c794c29de",
+      "unit": "EUR/MWh"
+    },
+    {
+      "source_url": "https://www.smard.de/app/chart_data/4169/DE-LU/4169_DE-LU_hour_1687730400000.json",
+      "request_parameters": {},
+      "downloaded_at_utc": "2026-08-03T18:29:19.336962+00:00",
+      "manifested_at_utc": "2026-08-03T18:59:08.468405+00:00",
+      "cache_hit": true,
+      "local_cache_path": "data/raw/smard/4169_DE-LU_hour_1687730400000.json",
+      "sha256": "da8c3dd1a0888539da3e8be1443cbff00c938f821410c7569c6a523106bcb154",
+      "unit": "EUR/MWh"
+    },
+    {
+      "source_url": "https://www.smard.de/app/chart_data/4169/DE-LU/4169_DE-LU_hour_1688335200000.json",
+      "request_parameters": {},
+      "downloaded_at_utc": "2026-08-03T18:29:19.572828+00:00",
+      "manifested_at_utc": "2026-08-03T18:59:08.469088+00:00",
+      "cache_hit": true,
+      "local_cache_path": "data/raw/smard/4169_DE-LU_hour_1688335200000.json",
+      "sha256": "751ea984f3c923b77d005cb02ea75a4c3c69acb20beaf8ab26c71a5a879a9154",
+      "unit": "EUR/MWh"
+    },
+    {
+      "source_url": "https://www.smard.de/app/chart_data/4169/DE-LU/4169_DE-LU_hour_1688940000000.json",
+      "request_parameters": {},
+      "downloaded_at_utc": "2026-08-03T18:29:20.668168+00:00",
+      "manifested_at_utc": "2026-08-03T18:59:08.470325+00:00",
+      "cache_hit": true,
+      "local_cache_path": "data/raw/smard/4169_DE-LU_hour_1688940000000.json",
+      "sha256": "9909541a8cd7c565bd07ee23e51461f9f636dfc8b023715059336314bc8ab276",
+      "unit": "EUR/MWh"
+    },
+    {
+      "source_url": "https://www.smard.de/app/chart_data/4169/DE-LU/4169_DE-LU_hour_1689544800000.json",
+      "request_parameters": {},
+      "downloaded_at_utc": "2026-08-03T18:29:20.942441+00:00",
+      "manifested_at_utc": "2026-08-03T18:59:08.470744+00:00",
+      "cache_hit": true,
+      "local_cache_path": "data/raw/smard/4169_DE-LU_hour_1689544800000.json",
+      "sha256": "7b765d2aabe9bb741954e2c1b407fda1c53dc07993af1ee4c1fc451bd6a8873b",
+      "unit": "EUR/MWh"
+    },
+    {
+      "source_url": "https://www.smard.de/app/chart_data/4169/DE-LU/4169_DE-LU_hour_1690149600000.json",
+      "request_parameters": {},
+      "downloaded_at_utc": "2026-08-03T18:29:21.183920+00:00",
+      "manifested_at_utc": "2026-08-03T18:59:08.471262+00:00",
+      "cache_hit": true,
+      "local_cache_path": "data/raw/smard/4169_DE-LU_hour_1690149600000.json",
+      "sha256": "9c76c734b1c8c143077f0c328bd4c9be0e4eedba81a25ae7d3d58629a89858fd",
+      "unit": "EUR/MWh"
+    },
+    {
+      "source_url": "https://www.smard.de/app/chart_data/4169/DE-LU/4169_DE-LU_hour_1690754400000.json",
+      "request_parameters": {},
+      "downloaded_at_utc": "2026-08-03T18:29:21.418372+00:00",
+      "manifested_at_utc": "2026-08-03T18:59:08.471743+00:00",
+      "cache_hit": true,
+      "local_cache_path": "data/raw/smard/4169_DE-LU_hour_1690754400000.json",
+      "sha256": "60a02a3864b2f6ac0a4c1f28c2c28e972085e33fd668d27f37a165efa7716353",
+      "unit": "EUR/MWh"
+    },
+    {
+      "source_url": "https://www.smard.de/app/chart_data/4169/DE-LU/4169_DE-LU_hour_1691359200000.json",
+      "request_parameters": {},
+      "downloaded_at_utc": "2026-08-03T18:29:21.662628+00:00",
+      "manifested_at_utc": "2026-08-03T18:59:08.472912+00:00",
+      "cache_hit": true,
+      "local_cache_path": "data/raw/smard/4169_DE-LU_hour_1691359200000.json",
+      "sha256": "9884c8bc47ecba2460401d1796ab6feeb4b3decfe514c9750592ce0c554bc864",
+      "unit": "EUR/MWh"
+    },
+    {
+      "source_url": "https://www.smard.de/app/chart_data/4169/DE-LU/4169_DE-LU_hour_1691964000000.json",
+      "request_parameters": {},
+      "downloaded_at_utc": "2026-08-03T18:29:21.950045+00:00",
+      "manifested_at_utc": "2026-08-03T18:59:08.473269+00:00",
+      "cache_hit": true,
+      "local_cache_path": "data/raw/smard/4169_DE-LU_hour_1691964000000.json",
+      "sha256": "2586b62ad5b23a7665667cf3be36f8a37aae11336bb7b9b1a9a454602a4e13cd",
+      "unit": "EUR/MWh"
+    },
+    {
+      "source_url": "https://www.smard.de/app/chart_data/4169/DE-LU/4169_DE-LU_hour_1692568800000.json",
+      "request_parameters": {},
+      "downloaded_at_utc": "2026-08-03T18:29:22.266325+00:00",
+      "manifested_at_utc": "2026-08-03T18:59:08.473613+00:00",
+      "cache_hit": true,
+      "local_cache_path": "data/raw/smard/4169_DE-LU_hour_1692568800000.json",
+      "sha256": "dbc327164f20be39a8b9bd311defdd236487af4f26c3de9427b4a22803dcf91a",
+      "unit": "EUR/MWh"
+    },
+    {
+      "source_url": "https://www.smard.de/app/chart_data/4169/DE-LU/4169_DE-LU_hour_1693173600000.json",
+      "request_parameters": {},
+      "downloaded_at_utc": "2026-08-03T18:29:22.569020+00:00",
+      "manifested_at_utc": "2026-08-03T18:59:08.474093+00:00",
+      "cache_hit": true,
+      "local_cache_path": "data/raw/smard/4169_DE-LU_hour_1693173600000.json",
+      "sha256": "1d793f5d45e7e40ba40d29c1137af5c6865425d188dd2e0bfa28c455a1caf959",
+      "unit": "EUR/MWh"
+    },
+    {
+      "source_url": "https://www.smard.de/app/chart_data/4169/DE-LU/4169_DE-LU_hour_1693778400000.json",
+      "request_parameters": {},
+      "downloaded_at_utc": "2026-08-03T18:29:22.875915+00:00",
+      "manifested_at_utc": "2026-08-03T18:59:08.474435+00:00",
+      "cache_hit": true,
+      "local_cache_path": "data/raw/smard/4169_DE-LU_hour_1693778400000.json",
+      "sha256": "7d207fc8df687f7d1b057fe61451eee08f0553674eb61aa001cdc1da1ba97a57",
+      "unit": "EUR/MWh"
+    },
+    {
+      "source_url": "https://www.smard.de/app/chart_data/4169/DE-LU/4169_DE-LU_hour_1694383200000.json",
+      "request_parameters": {},
+      "downloaded_at_utc": "2026-08-03T18:29:23.243568+00:00",
+      "manifested_at_utc": "2026-08-03T18:59:08.474776+00:00",
+      "cache_hit": true,
+      "local_cache_path": "data/raw/smard/4169_DE-LU_hour_1694383200000.json",
+      "sha256": "ade9a3cc52caaf28abc2891656f36fb6d32237897e83a79b3a585e871dab722a",
+      "unit": "EUR/MWh"
+    },
+    {
+      "source_url": "https://www.smard.de/app/chart_data/4169/DE-LU/4169_DE-LU_hour_1694988000000.json",
+      "request_parameters": {},
+      "downloaded_at_utc": "2026-08-03T18:29:23.546913+00:00",
+      "manifested_at_utc": "2026-08-03T18:59:08.475217+00:00",
+      "cache_hit": true,
+      "local_cache_path": "data/raw/smard/4169_DE-LU_hour_1694988000000.json",
+      "sha256": "5941f089c4b6fc46199115459e9475b6fdccbd2475b5b98f8bcc6042ba8c6f83",
+      "unit": "EUR/MWh"
+    },
+    {
+      "source_url": "https://www.smard.de/app/chart_data/4169/DE-LU/4169_DE-LU_hour_1695592800000.json",
+      "request_parameters": {},
+      "downloaded_at_utc": "2026-08-03T18:29:23.814170+00:00",
+      "manifested_at_utc": "2026-08-03T18:59:08.475734+00:00",
+      "cache_hit": true,
+      "local_cache_path": "data/raw/smard/4169_DE-LU_hour_1695592800000.json",
+      "sha256": "f3105eb4666d74f30f509678ca7fa40a2f42a60b5beb2cd424dd691246832a73",
+      "unit": "EUR/MWh"
+    },
+    {
+      "source_url": "https://www.smard.de/app/chart_data/4169/DE-LU/4169_DE-LU_hour_1696197600000.json",
+      "request_parameters": {},
+      "downloaded_at_utc": "2026-08-03T18:29:24.007017+00:00",
+      "manifested_at_utc": "2026-08-03T18:59:08.476390+00:00",
+      "cache_hit": true,
+      "local_cache_path": "data/raw/smard/4169_DE-LU_hour_1696197600000.json",
+      "sha256": "ef48d9c535a0c4393f083e7ad444094595ae491bdf1a68d9e27706aed377da52",
+      "unit": "EUR/MWh"
+    },
+    {
+      "source_url": "https://www.smard.de/app/chart_data/4169/DE-LU/4169_DE-LU_hour_1696802400000.json",
+      "request_parameters": {},
+      "downloaded_at_utc": "2026-08-03T18:29:24.253173+00:00",
+      "manifested_at_utc": "2026-08-03T18:59:08.476874+00:00",
+      "cache_hit": true,
+      "local_cache_path": "data/raw/smard/4169_DE-LU_hour_1696802400000.json",
+      "sha256": "8e53114a144ad895a47742d0aff6137a850876ed848b00353510ffecca4ad513",
+      "unit": "EUR/MWh"
+    },
+    {
+      "source_url": "https://www.smard.de/app/chart_data/4169/DE-LU/4169_DE-LU_hour_1697407200000.json",
+      "request_parameters": {},
+      "downloaded_at_utc": "2026-08-03T18:29:24.611293+00:00",
+      "manifested_at_utc": "2026-08-03T18:59:08.477333+00:00",
+      "cache_hit": true,
+      "local_cache_path": "data/raw/smard/4169_DE-LU_hour_1697407200000.json",
+      "sha256": "829b6bffee4aa07ac4434c5a7199a9d80d5dcb761dbc506c70e70de2272e9296",
+      "unit": "EUR/MWh"
+    },
+    {
+      "source_url": "https://www.smard.de/app/chart_data/4169/DE-LU/4169_DE-LU_hour_1698012000000.json",
+      "request_parameters": {},
+      "downloaded_at_utc": "2026-08-03T18:29:24.846586+00:00",
+      "manifested_at_utc": "2026-08-03T18:59:08.478591+00:00",
+      "cache_hit": true,
+      "local_cache_path": "data/raw/smard/4169_DE-LU_hour_1698012000000.json",
+      "sha256": "902137f43676468eb669a34f3272895fc660cb3c985bf5d1cd074dd2d46ec542",
+      "unit": "EUR/MWh"
+    },
+    {
+      "source_url": "https://www.smard.de/app/chart_data/4169/DE-LU/4169_DE-LU_hour_1698620400000.json",
+      "request_parameters": {},
+      "downloaded_at_utc": "2026-08-03T18:29:25.084836+00:00",
+      "manifested_at_utc": "2026-08-03T18:59:08.478949+00:00",
+      "cache_hit": true,
+      "local_cache_path": "data/raw/smard/4169_DE-LU_hour_1698620400000.json",
+      "sha256": "07d355b0e0a52505f0b508d77a4332038830dee0eaba56691e8dad1742bd655c",
+      "unit": "EUR/MWh"
+    },
+    {
+      "source_url": "https://www.smard.de/app/chart_data/4169/DE-LU/4169_DE-LU_hour_1699225200000.json",
+      "request_parameters": {},
+      "downloaded_at_utc": "2026-08-03T18:29:25.389724+00:00",
+      "manifested_at_utc": "2026-08-03T18:59:08.479381+00:00",
+      "cache_hit": true,
+      "local_cache_path": "data/raw/smard/4169_DE-LU_hour_1699225200000.json",
+      "sha256": "ccc4caa7c8a2d1716f645e52296c2eec26b150fa3fb31e02f20e1c400f27eb77",
+      "unit": "EUR/MWh"
+    },
+    {
+      "source_url": "https://www.smard.de/app/chart_data/4169/DE-LU/4169_DE-LU_hour_1699830000000.json",
+      "request_parameters": {},
+      "downloaded_at_utc": "2026-08-03T18:29:25.672789+00:00",
+      "manifested_at_utc": "2026-08-03T18:59:08.479850+00:00",
+      "cache_hit": true,
+      "local_cache_path": "data/raw/smard/4169_DE-LU_hour_1699830000000.json",
+      "sha256": "dbcad2871f785994e78db52992f29ab373d34867a98e306a76c58b82f4f1d950",
+      "unit": "EUR/MWh"
+    },
+    {
+      "source_url": "https://www.smard.de/app/chart_data/4169/DE-LU/4169_DE-LU_hour_1700434800000.json",
+      "request_parameters": {},
+      "downloaded_at_utc": "2026-08-03T18:29:25.923138+00:00",
+      "manifested_at_utc": "2026-08-03T18:59:08.480994+00:00",
+      "cache_hit": true,
+      "local_cache_path": "data/raw/smard/4169_DE-LU_hour_1700434800000.json",
+      "sha256": "1a8a9e4bc4ea028949685982a6320655c79b7e02d2fbf46d7fbeb5cbfb1ef8b5",
+      "unit": "EUR/MWh"
+    },
+    {
+      "source_url": "https://www.smard.de/app/chart_data/4169/DE-LU/4169_DE-LU_hour_1701039600000.json",
+      "request_parameters": {},
+      "downloaded_at_utc": "2026-08-03T18:29:26.151373+00:00",
+      "manifested_at_utc": "2026-08-03T18:59:08.481341+00:00",
+      "cache_hit": true,
+      "local_cache_path": "data/raw/smard/4169_DE-LU_hour_1701039600000.json",
+      "sha256": "7c80f1f8d494249623abd48e57639ef86073fc2a33110085df013abe19057623",
+      "unit": "EUR/MWh"
+    },
+    {
+      "source_url": "https://www.smard.de/app/chart_data/4169/DE-LU/4169_DE-LU_hour_1701644400000.json",
+      "request_parameters": {},
+      "downloaded_at_utc": "2026-08-03T18:29:26.471511+00:00",
+      "manifested_at_utc": "2026-08-03T18:59:08.481676+00:00",
+      "cache_hit": true,
+      "local_cache_path": "data/raw/smard/4169_DE-LU_hour_1701644400000.json",
+      "sha256": "158fe4911e44d73616bd8b0414e6b6694052854ae623642dc536214b9bb3f0f0",
+      "unit": "EUR/MWh"
+    },
+    {
+      "source_url": "https://www.smard.de/app/chart_data/4169/DE-LU/4169_DE-LU_hour_1702249200000.json",
+      "request_parameters": {},
+      "downloaded_at_utc": "2026-08-03T18:29:26.688545+00:00",
+      "manifested_at_utc": "2026-08-03T18:59:08.482291+00:00",
+      "cache_hit": true,
+      "local_cache_path": "data/raw/smard/4169_DE-LU_hour_1702249200000.json",
+      "sha256": "d24bfed9c8a805b8d7738df71851de97b8485bb5cc7d1e38ebd0c89b9bfbb841",
+      "unit": "EUR/MWh"
+    },
+    {
+      "source_url": "https://www.smard.de/app/chart_data/4169/DE-LU/4169_DE-LU_hour_1702854000000.json",
+      "request_parameters": {},
+      "downloaded_at_utc": "2026-08-03T18:29:26.960008+00:00",
+      "manifested_at_utc": "2026-08-03T18:59:08.482890+00:00",
+      "cache_hit": true,
+      "local_cache_path": "data/raw/smard/4169_DE-LU_hour_1702854000000.json",
+      "sha256": "e9038ec9e5bd34f9fdad800158b0a19758554fb0fd94573505b2ab3173089ee8",
+      "unit": "EUR/MWh"
+    },
+    {
+      "source_url": "https://www.smard.de/app/chart_data/4169/DE-LU/4169_DE-LU_hour_1703458800000.json",
+      "request_parameters": {},
+      "downloaded_at_utc": "2026-08-03T18:29:27.193541+00:00",
+      "manifested_at_utc": "2026-08-03T18:59:08.483481+00:00",
+      "cache_hit": true,
+      "local_cache_path": "data/raw/smard/4169_DE-LU_hour_1703458800000.json",
+      "sha256": "d6ce25261ff20745ee810f864c5ddd880df6a4c658ea22705657f298d449e07c",
+      "unit": "EUR/MWh"
+    },
+    {
+      "source_url": "https://www.smard.de/app/chart_data/4169/DE-LU/4169_DE-LU_hour_1704063600000.json",
+      "request_parameters": {},
+      "downloaded_at_utc": "2026-08-03T18:29:27.434284+00:00",
+      "manifested_at_utc": "2026-08-03T18:59:08.484613+00:00",
+      "cache_hit": true,
+      "local_cache_path": "data/raw/smard/4169_DE-LU_hour_1704063600000.json",
+      "sha256": "78fad914ef258ff4fe1c4a41b608b0741b811d039b04c123a925649b2476f490",
+      "unit": "EUR/MWh"
+    },
+    {
+      "source_url": "https://www.smard.de/app/chart_data/4169/DE-LU/4169_DE-LU_hour_1704668400000.json",
+      "request_parameters": {},
+      "downloaded_at_utc": "2026-08-03T18:29:27.645877+00:00",
+      "manifested_at_utc": "2026-08-03T18:59:08.485127+00:00",
+      "cache_hit": true,
+      "local_cache_path": "data/raw/smard/4169_DE-LU_hour_1704668400000.json",
+      "sha256": "e5b301bd27f50ab67ce3f8d2104fd3986008eb7e933b1d36a6f7b185ab6924f4",
+      "unit": "EUR/MWh"
+    },
+    {
+      "source_url": "https://www.smard.de/app/chart_data/4169/DE-LU/4169_DE-LU_hour_1705273200000.json",
+      "request_parameters": {},
+      "downloaded_at_utc": "2026-08-03T18:29:28.639463+00:00",
+      "manifested_at_utc": "2026-08-03T18:59:08.485607+00:00",
+      "cache_hit": true,
+      "local_cache_path": "data/raw/smard/4169_DE-LU_hour_1705273200000.json",
+      "sha256": "cbf5dc74bfcf97d9488c9fed84c957028eb8aa8722e4b32dfc6c8dfa7de78b00",
+      "unit": "EUR/MWh"
+    },
+    {
+      "source_url": "https://www.smard.de/app/chart_data/4169/DE-LU/4169_DE-LU_hour_1705878000000.json",
+      "request_parameters": {},
+      "downloaded_at_utc": "2026-08-03T18:29:28.853171+00:00",
+      "manifested_at_utc": "2026-08-03T18:59:08.486038+00:00",
+      "cache_hit": true,
+      "local_cache_path": "data/raw/smard/4169_DE-LU_hour_1705878000000.json",
+      "sha256": "dd22ba2bd4a29ad95e0735f4d2d0d8282a55a049ca62f3a603f24c93602992be",
+      "unit": "EUR/MWh"
+    },
+    {
+      "source_url": "https://www.smard.de/app/chart_data/4169/DE-LU/4169_DE-LU_hour_1706482800000.json",
+      "request_parameters": {},
+      "downloaded_at_utc": "2026-08-03T18:29:29.078889+00:00",
+      "manifested_at_utc": "2026-08-03T18:59:08.486660+00:00",
+      "cache_hit": true,
+      "local_cache_path": "data/raw/smard/4169_DE-LU_hour_1706482800000.json",
+      "sha256": "2214bf74affb2bcac8eae1c69aac0f556c4c478e28986b1241c4e4493484aca0",
+      "unit": "EUR/MWh"
+    },
+    {
+      "source_url": "https://www.smard.de/app/chart_data/4169/DE-LU/4169_DE-LU_hour_1707087600000.json",
+      "request_parameters": {},
+      "downloaded_at_utc": "2026-08-03T18:29:29.270038+00:00",
+      "manifested_at_utc": "2026-08-03T18:59:08.487497+00:00",
+      "cache_hit": true,
+      "local_cache_path": "data/raw/smard/4169_DE-LU_hour_1707087600000.json",
+      "sha256": "67381cbd9dd1b787903a11dd491ae5fc7275b25074ca5c59218228fd9597faa0",
+      "unit": "EUR/MWh"
+    },
+    {
+      "source_url": "https://www.smard.de/app/chart_data/4169/DE-LU/4169_DE-LU_hour_1707692400000.json",
+      "request_parameters": {},
+      "downloaded_at_utc": "2026-08-03T18:29:29.488081+00:00",
+      "manifested_at_utc": "2026-08-03T18:59:08.488005+00:00",
+      "cache_hit": true,
+      "local_cache_path": "data/raw/smard/4169_DE-LU_hour_1707692400000.json",
+      "sha256": "ea6c6ab236da92958780c3a4f4ff5d364bd1db8a5fd3d6c0c0a9dd6a2ef7bc46",
+      "unit": "EUR/MWh"
+    },
+    {
+      "source_url": "https://www.smard.de/app/chart_data/4169/DE-LU/4169_DE-LU_hour_1708297200000.json",
+      "request_parameters": {},
+      "downloaded_at_utc": "2026-08-03T18:29:29.769351+00:00",
+      "manifested_at_utc": "2026-08-03T18:59:08.488538+00:00",
+      "cache_hit": true,
+      "local_cache_path": "data/raw/smard/4169_DE-LU_hour_1708297200000.json",
+      "sha256": "16678a4c2796e68b94371c2821285cdf13cb222b80970e035b9e50bf0914da06",
+      "unit": "EUR/MWh"
+    },
+    {
+      "source_url": "https://www.smard.de/app/chart_data/4169/DE-LU/4169_DE-LU_hour_1708902000000.json",
+      "request_parameters": {},
+      "downloaded_at_utc": "2026-08-03T18:29:30.068270+00:00",
+      "manifested_at_utc": "2026-08-03T18:59:08.489030+00:00",
+      "cache_hit": true,
+      "local_cache_path": "data/raw/smard/4169_DE-LU_hour_1708902000000.json",
+      "sha256": "38375ffc53ee914f830c804baa2c17d8eeb498312c54dee5465e622b6696d509",
+      "unit": "EUR/MWh"
+    },
+    {
+      "source_url": "https://www.smard.de/app/chart_data/4169/DE-LU/4169_DE-LU_hour_1709506800000.json",
+      "request_parameters": {},
+      "downloaded_at_utc": "2026-08-03T18:29:30.257740+00:00",
+      "manifested_at_utc": "2026-08-03T18:59:08.489518+00:00",
+      "cache_hit": true,
+      "local_cache_path": "data/raw/smard/4169_DE-LU_hour_1709506800000.json",
+      "sha256": "c12f7c7731d174c8c5f03238c3dd98c232220b38690081abd97d71079f3b1d82",
+      "unit": "EUR/MWh"
+    },
+    {
+      "source_url": "https://www.smard.de/app/chart_data/4169/DE-LU/4169_DE-LU_hour_1710111600000.json",
+      "request_parameters": {},
+      "downloaded_at_utc": "2026-08-03T18:29:30.549777+00:00",
+      "manifested_at_utc": "2026-08-03T18:59:08.490151+00:00",
+      "cache_hit": true,
+      "local_cache_path": "data/raw/smard/4169_DE-LU_hour_1710111600000.json",
+      "sha256": "716fc0faf40eb0495843cabb070d8a5642d8c34ad3164137b394027601185321",
+      "unit": "EUR/MWh"
+    },
+    {
+      "source_url": "https://www.smard.de/app/chart_data/4169/DE-LU/4169_DE-LU_hour_1710716400000.json",
+      "request_parameters": {},
+      "downloaded_at_utc": "2026-08-03T18:29:30.779138+00:00",
+      "manifested_at_utc": "2026-08-03T18:59:08.490586+00:00",
+      "cache_hit": true,
+      "local_cache_path": "data/raw/smard/4169_DE-LU_hour_1710716400000.json",
+      "sha256": "428693433602a2567731e108e71589319c1082f31851a243ae56dbda37825f43",
+      "unit": "EUR/MWh"
+    },
+    {
+      "source_url": "https://www.smard.de/app/chart_data/4169/DE-LU/4169_DE-LU_hour_1711321200000.json",
+      "request_parameters": {},
+      "downloaded_at_utc": "2026-08-03T18:29:31.004581+00:00",
+      "manifested_at_utc": "2026-08-03T18:59:08.492370+00:00",
+      "cache_hit": true,
+      "local_cache_path": "data/raw/smard/4169_DE-LU_hour_1711321200000.json",
+      "sha256": "ebc6bd43f7864b7fd53d1c6a32a12aa0d7206f091ccae7450d8b177c413ff0c1",
+      "unit": "EUR/MWh"
+    },
+    {
+      "source_url": "https://www.smard.de/app/chart_data/4169/DE-LU/4169_DE-LU_hour_1711922400000.json",
+      "request_parameters": {},
+      "downloaded_at_utc": "2026-08-03T18:29:31.222873+00:00",
+      "manifested_at_utc": "2026-08-03T18:59:08.492917+00:00",
+      "cache_hit": true,
+      "local_cache_path": "data/raw/smard/4169_DE-LU_hour_1711922400000.json",
+      "sha256": "63fb0f6c14db9265b5152dd87de5853cee23266506adb72c73a894f789297e57",
+      "unit": "EUR/MWh"
+    },
+    {
+      "source_url": "https://www.smard.de/app/chart_data/4169/DE-LU/4169_DE-LU_hour_1712527200000.json",
+      "request_parameters": {},
+      "downloaded_at_utc": "2026-08-03T18:29:31.478326+00:00",
+      "manifested_at_utc": "2026-08-03T18:59:08.493403+00:00",
+      "cache_hit": true,
+      "local_cache_path": "data/raw/smard/4169_DE-LU_hour_1712527200000.json",
+      "sha256": "67f7333f83ed07af76ba0bc50ba2cf97bcaf07164912097ffa555a1f1831952c",
+      "unit": "EUR/MWh"
+    },
+    {
+      "source_url": "https://www.smard.de/app/chart_data/4169/DE-LU/4169_DE-LU_hour_1713132000000.json",
+      "request_parameters": {},
+      "downloaded_at_utc": "2026-08-03T18:29:31.679128+00:00",
+      "manifested_at_utc": "2026-08-03T18:59:08.495187+00:00",
+      "cache_hit": true,
+      "local_cache_path": "data/raw/smard/4169_DE-LU_hour_1713132000000.json",
+      "sha256": "15c4a85e59b50d4800c890827cba79b14b4e68f433d48852e076a49d2ae0e225",
+      "unit": "EUR/MWh"
+    },
+    {
+      "source_url": "https://www.smard.de/app/chart_data/4169/DE-LU/4169_DE-LU_hour_1713736800000.json",
+      "request_parameters": {},
+      "downloaded_at_utc": "2026-08-03T18:29:31.893066+00:00",
+      "manifested_at_utc": "2026-08-03T18:59:08.495621+00:00",
+      "cache_hit": true,
+      "local_cache_path": "data/raw/smard/4169_DE-LU_hour_1713736800000.json",
+      "sha256": "62e7eac994e8ab6522784ee4f34667b2ef6f236f126082f32dccb1d304fdb792",
+      "unit": "EUR/MWh"
+    },
+    {
+      "source_url": "https://www.smard.de/app/chart_data/4169/DE-LU/4169_DE-LU_hour_1714341600000.json",
+      "request_parameters": {},
+      "downloaded_at_utc": "2026-08-03T18:29:32.148378+00:00",
+      "manifested_at_utc": "2026-08-03T18:59:08.496119+00:00",
+      "cache_hit": true,
+      "local_cache_path": "data/raw/smard/4169_DE-LU_hour_1714341600000.json",
+      "sha256": "20c9e7630af184052f6e6c508feea67b1e7b387edb095ba2cac4b99921afc549",
+      "unit": "EUR/MWh"
+    },
+    {
+      "source_url": "https://www.smard.de/app/chart_data/4169/DE-LU/4169_DE-LU_hour_1714946400000.json",
+      "request_parameters": {},
+      "downloaded_at_utc": "2026-08-03T18:29:32.374095+00:00",
+      "manifested_at_utc": "2026-08-03T18:59:08.496599+00:00",
+      "cache_hit": true,
+      "local_cache_path": "data/raw/smard/4169_DE-LU_hour_1714946400000.json",
+      "sha256": "844ccc4bed7d747eacc1247090c2abe9cb13e39aefe51c0389713d15b8b4fa48",
+      "unit": "EUR/MWh"
+    },
+    {
+      "source_url": "https://www.smard.de/app/chart_data/4169/DE-LU/4169_DE-LU_hour_1715551200000.json",
+      "request_parameters": {},
+      "downloaded_at_utc": "2026-08-03T18:29:32.608172+00:00",
+      "manifested_at_utc": "2026-08-03T18:59:08.497937+00:00",
+      "cache_hit": true,
+      "local_cache_path": "data/raw/smard/4169_DE-LU_hour_1715551200000.json",
+      "sha256": "ade3776db487090511de00faef0940e1bbe90e5b052a24d56e213571046e5825",
+      "unit": "EUR/MWh"
+    },
+    {
+      "source_url": "https://www.smard.de/app/chart_data/4169/DE-LU/4169_DE-LU_hour_1716156000000.json",
+      "request_parameters": {},
+      "downloaded_at_utc": "2026-08-03T18:29:32.861338+00:00",
+      "manifested_at_utc": "2026-08-03T18:59:08.498324+00:00",
+      "cache_hit": true,
+      "local_cache_path": "data/raw/smard/4169_DE-LU_hour_1716156000000.json",
+      "sha256": "c0fc155ad9918db424d4e8386323bb9455ccd9ca181757029ff77242757be513",
+      "unit": "EUR/MWh"
+    },
+    {
+      "source_url": "https://www.smard.de/app/chart_data/4169/DE-LU/4169_DE-LU_hour_1716760800000.json",
+      "request_parameters": {},
+      "downloaded_at_utc": "2026-08-03T18:29:33.084272+00:00",
+      "manifested_at_utc": "2026-08-03T18:59:08.498682+00:00",
+      "cache_hit": true,
+      "local_cache_path": "data/raw/smard/4169_DE-LU_hour_1716760800000.json",
+      "sha256": "c1b09e2c2d0e0804c88eef3133e5a8e776a8644c1c47b5d3ba3ad0aa2a5a67fc",
+      "unit": "EUR/MWh"
+    },
+    {
+      "source_url": "https://www.smard.de/app/chart_data/4169/DE-LU/4169_DE-LU_hour_1717365600000.json",
+      "request_parameters": {},
+      "downloaded_at_utc": "2026-08-03T18:29:33.354712+00:00",
+      "manifested_at_utc": "2026-08-03T18:59:08.499119+00:00",
+      "cache_hit": true,
+      "local_cache_path": "data/raw/smard/4169_DE-LU_hour_1717365600000.json",
+      "sha256": "c3f01b2034f82455387909d6a6bb27ff6325b5752de248cb82debe25c1d814ed",
+      "unit": "EUR/MWh"
+    },
+    {
+      "source_url": "https://www.smard.de/app/chart_data/4169/DE-LU/4169_DE-LU_hour_1717970400000.json",
+      "request_parameters": {},
+      "downloaded_at_utc": "2026-08-03T18:29:33.571822+00:00",
+      "manifested_at_utc": "2026-08-03T18:59:08.499538+00:00",
+      "cache_hit": true,
+      "local_cache_path": "data/raw/smard/4169_DE-LU_hour_1717970400000.json",
+      "sha256": "1873a317838808baafcd237257bcbae66da7684a121f24eeee7f01420d0cfa36",
+      "unit": "EUR/MWh"
+    },
+    {
+      "source_url": "https://www.smard.de/app/chart_data/4169/DE-LU/4169_DE-LU_hour_1718575200000.json",
+      "request_parameters": {},
+      "downloaded_at_utc": "2026-08-03T18:29:33.806100+00:00",
+      "manifested_at_utc": "2026-08-03T18:59:08.500205+00:00",
+      "cache_hit": true,
+      "local_cache_path": "data/raw/smard/4169_DE-LU_hour_1718575200000.json",
+      "sha256": "76d1eedc39888a6ddb722a7946643f739800c0c23afe04faae33163985700015",
+      "unit": "EUR/MWh"
+    },
+    {
+      "source_url": "https://www.smard.de/app/chart_data/4169/DE-LU/4169_DE-LU_hour_1719180000000.json",
+      "request_parameters": {},
+      "downloaded_at_utc": "2026-08-03T18:29:34.044347+00:00",
+      "manifested_at_utc": "2026-08-03T18:59:08.500676+00:00",
+      "cache_hit": true,
+      "local_cache_path": "data/raw/smard/4169_DE-LU_hour_1719180000000.json",
+      "sha256": "ab28cd2eb1bfae597bc6f0987589c83ebea0845ee47984ec7eb10164e485bdc3",
+      "unit": "EUR/MWh"
+    },
+    {
+      "source_url": "https://www.smard.de/app/chart_data/4169/DE-LU/4169_DE-LU_hour_1719784800000.json",
+      "request_parameters": {},
+      "downloaded_at_utc": "2026-08-03T18:29:34.403260+00:00",
+      "manifested_at_utc": "2026-08-03T18:59:08.502056+00:00",
+      "cache_hit": true,
+      "local_cache_path": "data/raw/smard/4169_DE-LU_hour_1719784800000.json",
+      "sha256": "47b992051f5f3470267f4838105688e90c6d359aaf188dc0f79f7a94f36f452d",
+      "unit": "EUR/MWh"
+    },
+    {
+      "source_url": "https://www.smard.de/app/chart_data/4169/DE-LU/4169_DE-LU_hour_1720389600000.json",
+      "request_parameters": {},
+      "downloaded_at_utc": "2026-08-03T18:29:34.702445+00:00",
+      "manifested_at_utc": "2026-08-03T18:59:08.502490+00:00",
+      "cache_hit": true,
+      "local_cache_path": "data/raw/smard/4169_DE-LU_hour_1720389600000.json",
+      "sha256": "5432283a8c2f66136959333102b62fa264a93be2f2edba73cce94af9949e2e47",
+      "unit": "EUR/MWh"
+    },
+    {
+      "source_url": "https://www.smard.de/app/chart_data/4169/DE-LU/4169_DE-LU_hour_1720994400000.json",
+      "request_parameters": {},
+      "downloaded_at_utc": "2026-08-03T18:29:34.964838+00:00",
+      "manifested_at_utc": "2026-08-03T18:59:08.502886+00:00",
+      "cache_hit": true,
+      "local_cache_path": "data/raw/smard/4169_DE-LU_hour_1720994400000.json",
+      "sha256": "ee5f033fafd2acec659756f5655732283b1b00b5ab58111667a365b69112e396",
+      "unit": "EUR/MWh"
+    },
+    {
+      "source_url": "https://www.smard.de/app/chart_data/4169/DE-LU/4169_DE-LU_hour_1721599200000.json",
+      "request_parameters": {},
+      "downloaded_at_utc": "2026-08-03T18:29:35.173446+00:00",
+      "manifested_at_utc": "2026-08-03T18:59:08.503253+00:00",
+      "cache_hit": true,
+      "local_cache_path": "data/raw/smard/4169_DE-LU_hour_1721599200000.json",
+      "sha256": "1cc2afc0eb611eb9afc89ae82d025f3efeeea16bb6c6cc3f8dc7249698847e58",
+      "unit": "EUR/MWh"
+    },
+    {
+      "source_url": "https://www.smard.de/app/chart_data/4169/DE-LU/4169_DE-LU_hour_1722204000000.json",
+      "request_parameters": {},
+      "downloaded_at_utc": "2026-08-03T18:29:35.435376+00:00",
+      "manifested_at_utc": "2026-08-03T18:59:08.503600+00:00",
+      "cache_hit": true,
+      "local_cache_path": "data/raw/smard/4169_DE-LU_hour_1722204000000.json",
+      "sha256": "825c7194f861b3e08abcd1eb9123ca2c27dadb0c218a1ad0b0140d3e1a464117",
+      "unit": "EUR/MWh"
+    },
+    {
+      "source_url": "https://www.smard.de/app/chart_data/4169/DE-LU/4169_DE-LU_hour_1722808800000.json",
+      "request_parameters": {},
+      "downloaded_at_utc": "2026-08-03T18:29:35.702618+00:00",
+      "manifested_at_utc": "2026-08-03T18:59:08.503941+00:00",
+      "cache_hit": true,
+      "local_cache_path": "data/raw/smard/4169_DE-LU_hour_1722808800000.json",
+      "sha256": "281dab2183d8ce0d12a136799bef034c0cdd2e00ee47555c5c4c2870d1d02364",
+      "unit": "EUR/MWh"
+    },
+    {
+      "source_url": "https://www.smard.de/app/chart_data/4169/DE-LU/4169_DE-LU_hour_1723413600000.json",
+      "request_parameters": {},
+      "downloaded_at_utc": "2026-08-03T18:29:35.975435+00:00",
+      "manifested_at_utc": "2026-08-03T18:59:08.504288+00:00",
+      "cache_hit": true,
+      "local_cache_path": "data/raw/smard/4169_DE-LU_hour_1723413600000.json",
+      "sha256": "bd565a446974f24b8c4e7e1efdbdf1ed8a96d5b55555f9f3b1f0f32f7ce95c64",
+      "unit": "EUR/MWh"
+    },
+    {
+      "source_url": "https://www.smard.de/app/chart_data/4169/DE-LU/4169_DE-LU_hour_1724018400000.json",
+      "request_parameters": {},
+      "downloaded_at_utc": "2026-08-03T18:29:36.220870+00:00",
+      "manifested_at_utc": "2026-08-03T18:59:08.504620+00:00",
+      "cache_hit": true,
+      "local_cache_path": "data/raw/smard/4169_DE-LU_hour_1724018400000.json",
+      "sha256": "2854536c4c622a2440e264a2cee42b6a365411e34796e4bbc968b1c3df89b7c1",
+      "unit": "EUR/MWh"
+    },
+    {
+      "source_url": "https://www.smard.de/app/chart_data/4169/DE-LU/4169_DE-LU_hour_1724623200000.json",
+      "request_parameters": {},
+      "downloaded_at_utc": "2026-08-03T18:29:36.453964+00:00",
+      "manifested_at_utc": "2026-08-03T18:59:08.505101+00:00",
+      "cache_hit": true,
+      "local_cache_path": "data/raw/smard/4169_DE-LU_hour_1724623200000.json",
+      "sha256": "f1923ee3ead07613aedd91e629be90b19e2332098f90db8d20e371ac3116f97c",
+      "unit": "EUR/MWh"
+    },
+    {
+      "source_url": "https://www.smard.de/app/chart_data/4169/DE-LU/4169_DE-LU_hour_1725228000000.json",
+      "request_parameters": {},
+      "downloaded_at_utc": "2026-08-03T18:29:36.748859+00:00",
+      "manifested_at_utc": "2026-08-03T18:59:08.505434+00:00",
+      "cache_hit": true,
+      "local_cache_path": "data/raw/smard/4169_DE-LU_hour_1725228000000.json",
+      "sha256": "550ca4d6b12fe77287270194aa2693caac39dd348c4a5705a234f08b3869e236",
+      "unit": "EUR/MWh"
+    },
+    {
+      "source_url": "https://www.smard.de/app/chart_data/4169/DE-LU/4169_DE-LU_hour_1725832800000.json",
+      "request_parameters": {},
+      "downloaded_at_utc": "2026-08-03T18:29:36.981479+00:00",
+      "manifested_at_utc": "2026-08-03T18:59:08.505878+00:00",
+      "cache_hit": true,
+      "local_cache_path": "data/raw/smard/4169_DE-LU_hour_1725832800000.json",
+      "sha256": "7e9701c9188db47a3807e3e73821a195488f238a2c403df0bc2aad9eaa1a63ce",
+      "unit": "EUR/MWh"
+    },
+    {
+      "source_url": "https://www.smard.de/app/chart_data/4169/DE-LU/4169_DE-LU_hour_1726437600000.json",
+      "request_parameters": {},
+      "downloaded_at_utc": "2026-08-03T18:29:37.342370+00:00",
+      "manifested_at_utc": "2026-08-03T18:59:08.506398+00:00",
+      "cache_hit": true,
+      "local_cache_path": "data/raw/smard/4169_DE-LU_hour_1726437600000.json",
+      "sha256": "afd7e63e3cc63501fec02eee2dcfc575ad63a6f7b19e0b6d0e622e0acbae565c",
+      "unit": "EUR/MWh"
+    },
+    {
+      "source_url": "https://www.smard.de/app/chart_data/4169/DE-LU/4169_DE-LU_hour_1727042400000.json",
+      "request_parameters": {},
+      "downloaded_at_utc": "2026-08-03T18:29:37.585296+00:00",
+      "manifested_at_utc": "2026-08-03T18:59:08.508066+00:00",
+      "cache_hit": true,
+      "local_cache_path": "data/raw/smard/4169_DE-LU_hour_1727042400000.json",
+      "sha256": "57a232d69ddb851d28e039c5a86a9a4c237dc6953e2eb9f88d4a3ce29bcc5c8f",
+      "unit": "EUR/MWh"
+    },
+    {
+      "source_url": "https://www.smard.de/app/chart_data/4169/DE-LU/4169_DE-LU_hour_1727647200000.json",
+      "request_parameters": {},
+      "downloaded_at_utc": "2026-08-03T18:29:37.833415+00:00",
+      "manifested_at_utc": "2026-08-03T18:59:08.508425+00:00",
+      "cache_hit": true,
+      "local_cache_path": "data/raw/smard/4169_DE-LU_hour_1727647200000.json",
+      "sha256": "dde049dcf669f464a965a1a2d730148d84eb1b98df5aea7cea2cffbf09ae4262",
+      "unit": "EUR/MWh"
+    },
+    {
+      "source_url": "https://www.smard.de/app/chart_data/4169/DE-LU/4169_DE-LU_hour_1728252000000.json",
+      "request_parameters": {},
+      "downloaded_at_utc": "2026-08-03T18:29:39.261881+00:00",
+      "manifested_at_utc": "2026-08-03T18:59:08.508784+00:00",
+      "cache_hit": true,
+      "local_cache_path": "data/raw/smard/4169_DE-LU_hour_1728252000000.json",
+      "sha256": "80af8baf61bc0807a8dcf55b1bc33438832707bd47f69c1607f1fa8114358ed0",
+      "unit": "EUR/MWh"
+    },
+    {
+      "source_url": "https://www.smard.de/app/chart_data/4169/DE-LU/4169_DE-LU_hour_1728856800000.json",
+      "request_parameters": {},
+      "downloaded_at_utc": "2026-08-03T18:29:41.053770+00:00",
+      "manifested_at_utc": "2026-08-03T18:59:08.509226+00:00",
+      "cache_hit": true,
+      "local_cache_path": "data/raw/smard/4169_DE-LU_hour_1728856800000.json",
+      "sha256": "d0c470333b0cb0cbf67dfc42ca8ac4a420af6364137f38bd5715533d2777c70e",
+      "unit": "EUR/MWh"
+    },
+    {
+      "source_url": "https://www.smard.de/app/chart_data/4169/DE-LU/4169_DE-LU_hour_1729461600000.json",
+      "request_parameters": {},
+      "downloaded_at_utc": "2026-08-03T18:29:41.673255+00:00",
+      "manifested_at_utc": "2026-08-03T18:59:08.509695+00:00",
+      "cache_hit": true,
+      "local_cache_path": "data/raw/smard/4169_DE-LU_hour_1729461600000.json",
+      "sha256": "22604172096c67c09e5520f1cb027921f597c8953ee439bf0fed72d155703590",
+      "unit": "EUR/MWh"
+    },
+    {
+      "source_url": "https://www.smard.de/app/chart_data/4169/DE-LU/4169_DE-LU_hour_1730070000000.json",
+      "request_parameters": {},
+      "downloaded_at_utc": "2026-08-03T18:29:41.917211+00:00",
+      "manifested_at_utc": "2026-08-03T18:59:08.510620+00:00",
+      "cache_hit": true,
+      "local_cache_path": "data/raw/smard/4169_DE-LU_hour_1730070000000.json",
+      "sha256": "e4c3a4b378f7adf4f284b91f0a730bb5f8008fd33ac4e7ebb22af9fc3fda625c",
+      "unit": "EUR/MWh"
+    },
+    {
+      "source_url": "https://www.smard.de/app/chart_data/4169/DE-LU/4169_DE-LU_hour_1730674800000.json",
+      "request_parameters": {},
+      "downloaded_at_utc": "2026-08-03T18:29:42.154387+00:00",
+      "manifested_at_utc": "2026-08-03T18:59:08.510978+00:00",
+      "cache_hit": true,
+      "local_cache_path": "data/raw/smard/4169_DE-LU_hour_1730674800000.json",
+      "sha256": "4637f2aa0c88dec524e2eee5505ac442547b0b0e0ca7db9ac91ebc81f81c5d2d",
+      "unit": "EUR/MWh"
+    },
+    {
+      "source_url": "https://www.smard.de/app/chart_data/4169/DE-LU/4169_DE-LU_hour_1731279600000.json",
+      "request_parameters": {},
+      "downloaded_at_utc": "2026-08-03T18:29:42.384248+00:00",
+      "manifested_at_utc": "2026-08-03T18:59:08.511415+00:00",
+      "cache_hit": true,
+      "local_cache_path": "data/raw/smard/4169_DE-LU_hour_1731279600000.json",
+      "sha256": "41e41df4d0682d59425d30a57e1a56835373edd6407cbacecd97c346c8393d3e",
+      "unit": "EUR/MWh"
+    },
+    {
+      "source_url": "https://www.smard.de/app/chart_data/4169/DE-LU/4169_DE-LU_hour_1731884400000.json",
+      "request_parameters": {},
+      "downloaded_at_utc": "2026-08-03T18:29:42.683205+00:00",
+      "manifested_at_utc": "2026-08-03T18:59:08.511865+00:00",
+      "cache_hit": true,
+      "local_cache_path": "data/raw/smard/4169_DE-LU_hour_1731884400000.json",
+      "sha256": "8ec8aef8191f63038f304853604a600648cada0d476d4ee0ad7bae19b84316be",
+      "unit": "EUR/MWh"
+    },
+    {
+      "source_url": "https://www.smard.de/app/chart_data/4169/DE-LU/4169_DE-LU_hour_1732489200000.json",
+      "request_parameters": {},
+      "downloaded_at_utc": "2026-08-03T18:29:42.934844+00:00",
+      "manifested_at_utc": "2026-08-03T18:59:08.512275+00:00",
+      "cache_hit": true,
+      "local_cache_path": "data/raw/smard/4169_DE-LU_hour_1732489200000.json",
+      "sha256": "fedc1369235df9e29ed6716bf0ba7938a848ccd2088e6c5dba93da01ae06e813",
+      "unit": "EUR/MWh"
+    },
+    {
+      "source_url": "https://www.smard.de/app/chart_data/4169/DE-LU/4169_DE-LU_hour_1733094000000.json",
+      "request_parameters": {},
+      "downloaded_at_utc": "2026-08-03T18:29:43.186595+00:00",
+      "manifested_at_utc": "2026-08-03T18:59:08.512630+00:00",
+      "cache_hit": true,
+      "local_cache_path": "data/raw/smard/4169_DE-LU_hour_1733094000000.json",
+      "sha256": "ca5cab991b0f29af2f560531813eafc16295caa15ecd378a109203cf0832699e",
+      "unit": "EUR/MWh"
+    },
+    {
+      "source_url": "https://www.smard.de/app/chart_data/4169/DE-LU/4169_DE-LU_hour_1733698800000.json",
+      "request_parameters": {},
+      "downloaded_at_utc": "2026-08-03T18:29:43.450360+00:00",
+      "manifested_at_utc": "2026-08-03T18:59:08.512966+00:00",
+      "cache_hit": true,
+      "local_cache_path": "data/raw/smard/4169_DE-LU_hour_1733698800000.json",
+      "sha256": "340164bb8161e054b30407e49d54479bc1f8411d3748596e01f506bbbe8a7ede",
+      "unit": "EUR/MWh"
+    },
+    {
+      "source_url": "https://www.smard.de/app/chart_data/4169/DE-LU/4169_DE-LU_hour_1734303600000.json",
+      "request_parameters": {},
+      "downloaded_at_utc": "2026-08-03T18:29:43.799349+00:00",
+      "manifested_at_utc": "2026-08-03T18:59:08.513313+00:00",
+      "cache_hit": true,
+      "local_cache_path": "data/raw/smard/4169_DE-LU_hour_1734303600000.json",
+      "sha256": "23f411cfe9190cb7e979cd545ea65044b293d20de93720f89b58ffd9936b7c66",
+      "unit": "EUR/MWh"
+    },
+    {
+      "source_url": "https://www.smard.de/app/chart_data/4169/DE-LU/4169_DE-LU_hour_1734908400000.json",
+      "request_parameters": {},
+      "downloaded_at_utc": "2026-08-03T18:29:44.028644+00:00",
+      "manifested_at_utc": "2026-08-03T18:59:08.513656+00:00",
+      "cache_hit": true,
+      "local_cache_path": "data/raw/smard/4169_DE-LU_hour_1734908400000.json",
+      "sha256": "595e80feb1206db1957616b897b25cb1bd10fc37447815e663547e255adb441c",
+      "unit": "EUR/MWh"
+    },
+    {
+      "source_url": "https://www.smard.de/app/chart_data/4169/DE-LU/4169_DE-LU_hour_1735513200000.json",
+      "request_parameters": {},
+      "downloaded_at_utc": "2026-08-03T18:29:44.287831+00:00",
+      "manifested_at_utc": "2026-08-03T18:59:08.514003+00:00",
+      "cache_hit": true,
+      "local_cache_path": "data/raw/smard/4169_DE-LU_hour_1735513200000.json",
+      "sha256": "62701fc0973911f32ce2ccd20312ab35ea784229de9c189d3c9249031afa63b8",
+      "unit": "EUR/MWh"
+    },
+    {
+      "source_url": "https://www.smard.de/app/chart_data/4169/DE-LU/4169_DE-LU_hour_1736118000000.json",
+      "request_parameters": {},
+      "downloaded_at_utc": "2026-08-03T18:29:44.529572+00:00",
+      "manifested_at_utc": "2026-08-03T18:59:08.514333+00:00",
+      "cache_hit": true,
+      "local_cache_path": "data/raw/smard/4169_DE-LU_hour_1736118000000.json",
+      "sha256": "6887d94a448c09cd47a1af6e4d6c18775794050e0f0982e1133fc4ac8507a1f0",
+      "unit": "EUR/MWh"
+    },
+    {
+      "source_url": "https://www.smard.de/app/chart_data/4169/DE-LU/4169_DE-LU_hour_1736722800000.json",
+      "request_parameters": {},
+      "downloaded_at_utc": "2026-08-03T18:29:45.391218+00:00",
+      "manifested_at_utc": "2026-08-03T18:59:08.514833+00:00",
+      "cache_hit": true,
+      "local_cache_path": "data/raw/smard/4169_DE-LU_hour_1736722800000.json",
+      "sha256": "a43f4ce9175d8d10cabf3327a8deccde6e160e57cae08702340147326fafa1d5",
+      "unit": "EUR/MWh"
+    },
+    {
+      "source_url": "https://www.smard.de/app/chart_data/4169/DE-LU/4169_DE-LU_hour_1737327600000.json",
+      "request_parameters": {},
+      "downloaded_at_utc": "2026-08-03T18:29:46.311683+00:00",
+      "manifested_at_utc": "2026-08-03T18:59:08.515164+00:00",
+      "cache_hit": true,
+      "local_cache_path": "data/raw/smard/4169_DE-LU_hour_1737327600000.json",
+      "sha256": "9c2b85652b22a312af4052912535f3a8a0e3763d8dab6544ff4b619b9580592f",
+      "unit": "EUR/MWh"
+    },
+    {
+      "source_url": "https://www.smard.de/app/chart_data/4169/DE-LU/4169_DE-LU_hour_1737932400000.json",
+      "request_parameters": {},
+      "downloaded_at_utc": "2026-08-03T18:29:46.549211+00:00",
+      "manifested_at_utc": "2026-08-03T18:59:08.515627+00:00",
+      "cache_hit": true,
+      "local_cache_path": "data/raw/smard/4169_DE-LU_hour_1737932400000.json",
+      "sha256": "3e4075d583cce3b47c8dbf53e70d23a71792354d44ccd4ed0cf7ac171fe02a9d",
+      "unit": "EUR/MWh"
+    },
+    {
+      "source_url": "https://www.smard.de/app/chart_data/4169/DE-LU/4169_DE-LU_hour_1738537200000.json",
+      "request_parameters": {},
+      "downloaded_at_utc": "2026-08-03T18:29:46.779682+00:00",
+      "manifested_at_utc": "2026-08-03T18:59:08.516122+00:00",
+      "cache_hit": true,
+      "local_cache_path": "data/raw/smard/4169_DE-LU_hour_1738537200000.json",
+      "sha256": "19388f67fedaaa9020a4591532cc7d4319f3412c78d8a0252b09116988625378",
+      "unit": "EUR/MWh"
+    },
+    {
+      "source_url": "https://www.smard.de/app/chart_data/4169/DE-LU/4169_DE-LU_hour_1739142000000.json",
+      "request_parameters": {},
+      "downloaded_at_utc": "2026-08-03T18:29:46.988683+00:00",
+      "manifested_at_utc": "2026-08-03T18:59:08.517404+00:00",
+      "cache_hit": true,
+      "local_cache_path": "data/raw/smard/4169_DE-LU_hour_1739142000000.json",
+      "sha256": "18f59d4fcf8a0567b2fcbcbbd817fe4a74bfc4521cd5743466dd5d0615f012af",
+      "unit": "EUR/MWh"
+    },
+    {
+      "source_url": "https://www.smard.de/app/chart_data/4169/DE-LU/4169_DE-LU_hour_1739746800000.json",
+      "request_parameters": {},
+      "downloaded_at_utc": "2026-08-03T18:29:47.215928+00:00",
+      "manifested_at_utc": "2026-08-03T18:59:08.517763+00:00",
+      "cache_hit": true,
+      "local_cache_path": "data/raw/smard/4169_DE-LU_hour_1739746800000.json",
+      "sha256": "31bc282c4c85b24f7d0cc8b8d7e81cb35f543cc01330316d51cddec97213720d",
+      "unit": "EUR/MWh"
+    },
+    {
+      "source_url": "https://www.smard.de/app/chart_data/4169/DE-LU/4169_DE-LU_hour_1740351600000.json",
+      "request_parameters": {},
+      "downloaded_at_utc": "2026-08-03T18:29:47.510196+00:00",
+      "manifested_at_utc": "2026-08-03T18:59:08.518124+00:00",
+      "cache_hit": true,
+      "local_cache_path": "data/raw/smard/4169_DE-LU_hour_1740351600000.json",
+      "sha256": "837a149c1b096e469d651129c4e32c23890cef4490a5f0886ed097b7f602124e",
+      "unit": "EUR/MWh"
+    },
+    {
+      "source_url": "https://www.smard.de/app/chart_data/4169/DE-LU/4169_DE-LU_hour_1740956400000.json",
+      "request_parameters": {},
+      "downloaded_at_utc": "2026-08-03T18:29:47.764354+00:00",
+      "manifested_at_utc": "2026-08-03T18:59:08.518495+00:00",
+      "cache_hit": true,
+      "local_cache_path": "data/raw/smard/4169_DE-LU_hour_1740956400000.json",
+      "sha256": "9b4b7583d96de1c5e56ea93f3af98d2eb6f750f2c79d93185c37efbe3d5473e6",
+      "unit": "EUR/MWh"
+    },
+    {
+      "source_url": "https://www.smard.de/app/chart_data/4169/DE-LU/4169_DE-LU_hour_1741561200000.json",
+      "request_parameters": {},
+      "downloaded_at_utc": "2026-08-03T18:29:47.991071+00:00",
+      "manifested_at_utc": "2026-08-03T18:59:08.518894+00:00",
+      "cache_hit": true,
+      "local_cache_path": "data/raw/smard/4169_DE-LU_hour_1741561200000.json",
+      "sha256": "f27812050ff8a2759bba52f11f73598cc00321508a5ca4765d841e7b736cc3b6",
+      "unit": "EUR/MWh"
+    },
+    {
+      "source_url": "https://www.smard.de/app/chart_data/4169/DE-LU/4169_DE-LU_hour_1742166000000.json",
+      "request_parameters": {},
+      "downloaded_at_utc": "2026-08-03T18:29:48.223648+00:00",
+      "manifested_at_utc": "2026-08-03T18:59:08.519257+00:00",
+      "cache_hit": true,
+      "local_cache_path": "data/raw/smard/4169_DE-LU_hour_1742166000000.json",
+      "sha256": "67efd0d0a7b65c1f1d8c1f901e0f007a2fc5355a55e441e88d479e2008b1192f",
+      "unit": "EUR/MWh"
+    },
+    {
+      "source_url": "https://www.smard.de/app/chart_data/4169/DE-LU/4169_DE-LU_hour_1742770800000.json",
+      "request_parameters": {},
+      "downloaded_at_utc": "2026-08-03T18:29:48.466337+00:00",
+      "manifested_at_utc": "2026-08-03T18:59:08.519737+00:00",
+      "cache_hit": true,
+      "local_cache_path": "data/raw/smard/4169_DE-LU_hour_1742770800000.json",
+      "sha256": "5d3fff9f796148a95a69e8f4b34827d6396086f52affe70f3db0c9d48d2ff22a",
+      "unit": "EUR/MWh"
+    },
+    {
+      "source_url": "https://www.smard.de/app/chart_data/4169/DE-LU/4169_DE-LU_hour_1743372000000.json",
+      "request_parameters": {},
+      "downloaded_at_utc": "2026-08-03T18:29:48.712512+00:00",
+      "manifested_at_utc": "2026-08-03T18:59:08.520121+00:00",
+      "cache_hit": true,
+      "local_cache_path": "data/raw/smard/4169_DE-LU_hour_1743372000000.json",
+      "sha256": "61bf00de7200a53ce8e4e00e1c3cbf3ce2c26e0758185583645496f5b06c4a5d",
+      "unit": "EUR/MWh"
+    },
+    {
+      "source_url": "https://www.smard.de/app/chart_data/4169/DE-LU/4169_DE-LU_hour_1743976800000.json",
+      "request_parameters": {},
+      "downloaded_at_utc": "2026-08-03T18:29:48.950761+00:00",
+      "manifested_at_utc": "2026-08-03T18:59:08.520647+00:00",
+      "cache_hit": true,
+      "local_cache_path": "data/raw/smard/4169_DE-LU_hour_1743976800000.json",
+      "sha256": "1ddc9adce1d7eb9bafaba5d5a9da0ee3e309c971782941d9ad2eb559b6a8d6aa",
+      "unit": "EUR/MWh"
+    },
+    {
+      "source_url": "https://www.smard.de/app/chart_data/4169/DE-LU/4169_DE-LU_hour_1744581600000.json",
+      "request_parameters": {},
+      "downloaded_at_utc": "2026-08-03T18:29:49.184542+00:00",
+      "manifested_at_utc": "2026-08-03T18:59:08.521040+00:00",
+      "cache_hit": true,
+      "local_cache_path": "data/raw/smard/4169_DE-LU_hour_1744581600000.json",
+      "sha256": "7d1c37e350e202fa0e2e34808e8b9e566e2ce8bc514bbcbbd9c7f4b627ce0d18",
+      "unit": "EUR/MWh"
+    },
+    {
+      "source_url": "https://www.smard.de/app/chart_data/4169/DE-LU/4169_DE-LU_hour_1745186400000.json",
+      "request_parameters": {},
+      "downloaded_at_utc": "2026-08-03T18:29:49.422886+00:00",
+      "manifested_at_utc": "2026-08-03T18:59:08.521559+00:00",
+      "cache_hit": true,
+      "local_cache_path": "data/raw/smard/4169_DE-LU_hour_1745186400000.json",
+      "sha256": "d7d47a61c92f932c51b3d3ce40bec9531b8a0406da67918bc90307db1c5e4924",
+      "unit": "EUR/MWh"
+    },
+    {
+      "source_url": "https://www.smard.de/app/chart_data/4169/DE-LU/4169_DE-LU_hour_1745791200000.json",
+      "request_parameters": {},
+      "downloaded_at_utc": "2026-08-03T18:29:49.627037+00:00",
+      "manifested_at_utc": "2026-08-03T18:59:08.521946+00:00",
+      "cache_hit": true,
+      "local_cache_path": "data/raw/smard/4169_DE-LU_hour_1745791200000.json",
+      "sha256": "a898114d0e71ba00c4a9e999e702c2adeac924945de63e085fb197109f4bfe27",
+      "unit": "EUR/MWh"
+    },
+    {
+      "source_url": "https://www.smard.de/app/chart_data/4169/DE-LU/4169_DE-LU_hour_1746396000000.json",
+      "request_parameters": {},
+      "downloaded_at_utc": "2026-08-03T18:29:49.849783+00:00",
+      "manifested_at_utc": "2026-08-03T18:59:08.522475+00:00",
+      "cache_hit": true,
+      "local_cache_path": "data/raw/smard/4169_DE-LU_hour_1746396000000.json",
+      "sha256": "d075cf53a5718262603a87980947ff227eec0efe53549bd0437fa1fc4689dfda",
+      "unit": "EUR/MWh"
+    },
+    {
+      "source_url": "https://www.smard.de/app/chart_data/4169/DE-LU/4169_DE-LU_hour_1747000800000.json",
+      "request_parameters": {},
+      "downloaded_at_utc": "2026-08-03T18:29:50.122854+00:00",
+      "manifested_at_utc": "2026-08-03T18:59:08.522972+00:00",
+      "cache_hit": true,
+      "local_cache_path": "data/raw/smard/4169_DE-LU_hour_1747000800000.json",
+      "sha256": "b8b398f22a7226a30c9d9e92df898c3f075f60b51d4cb8b8f8bf33359ddbc2b8",
+      "unit": "EUR/MWh"
+    },
+    {
+      "source_url": "https://www.smard.de/app/chart_data/4169/DE-LU/4169_DE-LU_hour_1747605600000.json",
+      "request_parameters": {},
+      "downloaded_at_utc": "2026-08-03T18:29:50.384694+00:00",
+      "manifested_at_utc": "2026-08-03T18:59:08.523959+00:00",
+      "cache_hit": true,
+      "local_cache_path": "data/raw/smard/4169_DE-LU_hour_1747605600000.json",
+      "sha256": "e6f1afd49e0c218b2470e2a8170cb770bc2d63dae6ecace671f4fda5a6565804",
+      "unit": "EUR/MWh"
+    },
+    {
+      "source_url": "https://www.smard.de/app/chart_data/4169/DE-LU/4169_DE-LU_hour_1748210400000.json",
+      "request_parameters": {},
+      "downloaded_at_utc": "2026-08-03T18:29:50.629771+00:00",
+      "manifested_at_utc": "2026-08-03T18:59:08.525377+00:00",
+      "cache_hit": true,
+      "local_cache_path": "data/raw/smard/4169_DE-LU_hour_1748210400000.json",
+      "sha256": "84add1d10178ce9f275716d7201b397597c77e4853bb5fca08be9f212cd0e616",
+      "unit": "EUR/MWh"
+    },
+    {
+      "source_url": "https://www.smard.de/app/chart_data/4169/DE-LU/4169_DE-LU_hour_1748815200000.json",
+      "request_parameters": {},
+      "downloaded_at_utc": "2026-08-03T18:29:50.861891+00:00",
+      "manifested_at_utc": "2026-08-03T18:59:08.527315+00:00",
+      "cache_hit": true,
+      "local_cache_path": "data/raw/smard/4169_DE-LU_hour_1748815200000.json",
+      "sha256": "70ae654ce22fd01320564e26540f663497f34e8ec136fd81ac27ce8622b6bce8",
+      "unit": "EUR/MWh"
+    },
+    {
+      "source_url": "https://www.smard.de/app/chart_data/4169/DE-LU/4169_DE-LU_hour_1749420000000.json",
+      "request_parameters": {},
+      "downloaded_at_utc": "2026-08-03T18:29:51.107845+00:00",
+      "manifested_at_utc": "2026-08-03T18:59:08.529394+00:00",
+      "cache_hit": true,
+      "local_cache_path": "data/raw/smard/4169_DE-LU_hour_1749420000000.json",
+      "sha256": "c1b949a59fc185e6dbdc508e3e9cd9f18b16fbbe5215688f9d35543c9af65302",
+      "unit": "EUR/MWh"
+    },
+    {
+      "source_url": "https://www.smard.de/app/chart_data/4169/DE-LU/4169_DE-LU_hour_1750024800000.json",
+      "request_parameters": {},
+      "downloaded_at_utc": "2026-08-03T18:29:51.349349+00:00",
+      "manifested_at_utc": "2026-08-03T18:59:08.530626+00:00",
+      "cache_hit": true,
+      "local_cache_path": "data/raw/smard/4169_DE-LU_hour_1750024800000.json",
+      "sha256": "dd7feec7b8047c7f9cb60e96c943a9676871a2644ae525a741234d1ca9120367",
+      "unit": "EUR/MWh"
+    },
+    {
+      "source_url": "https://www.smard.de/app/chart_data/4169/DE-LU/4169_DE-LU_hour_1750629600000.json",
+      "request_parameters": {},
+      "downloaded_at_utc": "2026-08-03T18:29:51.606343+00:00",
+      "manifested_at_utc": "2026-08-03T18:59:08.532212+00:00",
+      "cache_hit": true,
+      "local_cache_path": "data/raw/smard/4169_DE-LU_hour_1750629600000.json",
+      "sha256": "17ab1d41c9e10126361a16e9aeaddcb4c2da625b7e2e1bb00988548034de666f",
+      "unit": "EUR/MWh"
+    },
+    {
+      "source_url": "https://www.smard.de/app/chart_data/4169/DE-LU/4169_DE-LU_hour_1751234400000.json",
+      "request_parameters": {},
+      "downloaded_at_utc": "2026-08-03T18:29:51.827964+00:00",
+      "manifested_at_utc": "2026-08-03T18:59:08.533862+00:00",
+      "cache_hit": true,
+      "local_cache_path": "data/raw/smard/4169_DE-LU_hour_1751234400000.json",
+      "sha256": "a9064b498fd59f9b43f9abff6f37337073a9cc53a7b5f17975ee15e82129f41b",
+      "unit": "EUR/MWh"
+    },
+    {
+      "source_url": "https://www.smard.de/app/chart_data/4169/DE-LU/4169_DE-LU_hour_1751839200000.json",
+      "request_parameters": {},
+      "downloaded_at_utc": "2026-08-03T18:29:52.069932+00:00",
+      "manifested_at_utc": "2026-08-03T18:59:08.534254+00:00",
+      "cache_hit": true,
+      "local_cache_path": "data/raw/smard/4169_DE-LU_hour_1751839200000.json",
+      "sha256": "7f82ca9628523cb868642e28f7258e18ce6df2773fd5e161e1765a450f5de506",
+      "unit": "EUR/MWh"
+    },
+    {
+      "source_url": "https://www.smard.de/app/chart_data/4169/DE-LU/4169_DE-LU_hour_1752444000000.json",
+      "request_parameters": {},
+      "downloaded_at_utc": "2026-08-03T18:29:52.267780+00:00",
+      "manifested_at_utc": "2026-08-03T18:59:08.534616+00:00",
+      "cache_hit": true,
+      "local_cache_path": "data/raw/smard/4169_DE-LU_hour_1752444000000.json",
+      "sha256": "9c918d3f0be5385bc50110109b2bc7d0dd23aaaa2bcdf283e014d73a3803c1a7",
+      "unit": "EUR/MWh"
+    },
+    {
+      "source_url": "https://www.smard.de/app/chart_data/4169/DE-LU/4169_DE-LU_hour_1753048800000.json",
+      "request_parameters": {},
+      "downloaded_at_utc": "2026-08-03T18:29:52.490658+00:00",
+      "manifested_at_utc": "2026-08-03T18:59:08.535012+00:00",
+      "cache_hit": true,
+      "local_cache_path": "data/raw/smard/4169_DE-LU_hour_1753048800000.json",
+      "sha256": "4a5d912eac7bceab25ad6832d3e1d33c8986d4c76ff2e6a91ef23f9031dc3a2f",
+      "unit": "EUR/MWh"
+    },
+    {
+      "source_url": "https://www.smard.de/app/chart_data/4169/DE-LU/4169_DE-LU_hour_1753653600000.json",
+      "request_parameters": {},
+      "downloaded_at_utc": "2026-08-03T18:29:52.701056+00:00",
+      "manifested_at_utc": "2026-08-03T18:59:08.535411+00:00",
+      "cache_hit": true,
+      "local_cache_path": "data/raw/smard/4169_DE-LU_hour_1753653600000.json",
+      "sha256": "b4d20e0b551f3cfa1098e500458189e2274c1f67fc6a39f50e7f91a829ccb74c",
+      "unit": "EUR/MWh"
+    },
+    {
+      "source_url": "https://www.smard.de/app/chart_data/4169/DE-LU/4169_DE-LU_hour_1754258400000.json",
+      "request_parameters": {},
+      "downloaded_at_utc": "2026-08-03T18:29:52.969597+00:00",
+      "manifested_at_utc": "2026-08-03T18:59:08.535834+00:00",
+      "cache_hit": true,
+      "local_cache_path": "data/raw/smard/4169_DE-LU_hour_1754258400000.json",
+      "sha256": "7797835b0120c69804dd6f18683a75f054acb991b78f29f660341ba350d6be62",
+      "unit": "EUR/MWh"
+    },
+    {
+      "source_url": "https://www.smard.de/app/chart_data/4169/DE-LU/4169_DE-LU_hour_1754863200000.json",
+      "request_parameters": {},
+      "downloaded_at_utc": "2026-08-03T18:29:53.284913+00:00",
+      "manifested_at_utc": "2026-08-03T18:59:08.536213+00:00",
+      "cache_hit": true,
+      "local_cache_path": "data/raw/smard/4169_DE-LU_hour_1754863200000.json",
+      "sha256": "8a85a60888ce150198d753571d42d8becc36b2f70843a99256c5bc4f550f2548",
+      "unit": "EUR/MWh"
+    },
+    {
+      "source_url": "https://www.smard.de/app/chart_data/4169/DE-LU/4169_DE-LU_hour_1755468000000.json",
+      "request_parameters": {},
+      "downloaded_at_utc": "2026-08-03T18:29:53.502696+00:00",
+      "manifested_at_utc": "2026-08-03T18:59:08.536571+00:00",
+      "cache_hit": true,
+      "local_cache_path": "data/raw/smard/4169_DE-LU_hour_1755468000000.json",
+      "sha256": "0e9ede4a8a2fb3e30c2d0ab75afe2bd3b08785eafc9b747f6bc304310b5fbc0a",
+      "unit": "EUR/MWh"
+    },
+    {
+      "source_url": "https://www.smard.de/app/chart_data/4169/DE-LU/4169_DE-LU_hour_1756072800000.json",
+      "request_parameters": {},
+      "downloaded_at_utc": "2026-08-03T18:29:53.703682+00:00",
+      "manifested_at_utc": "2026-08-03T18:59:08.537069+00:00",
+      "cache_hit": true,
+      "local_cache_path": "data/raw/smard/4169_DE-LU_hour_1756072800000.json",
+      "sha256": "20c94bee1896acaf9cd547bcac7df9e0f2353364e3c952aa6bcb55aada7ea571",
+      "unit": "EUR/MWh"
+    },
+    {
+      "source_url": "https://www.smard.de/app/chart_data/4169/DE-LU/4169_DE-LU_hour_1756677600000.json",
+      "request_parameters": {},
+      "downloaded_at_utc": "2026-08-03T18:29:53.949419+00:00",
+      "manifested_at_utc": "2026-08-03T18:59:08.537428+00:00",
+      "cache_hit": true,
+      "local_cache_path": "data/raw/smard/4169_DE-LU_hour_1756677600000.json",
+      "sha256": "6bea5f3d0ca2aa57ca557ceffd3c104531f22af65ced494139efed3b86955419",
+      "unit": "EUR/MWh"
+    },
+    {
+      "source_url": "https://www.smard.de/app/chart_data/4169/DE-LU/4169_DE-LU_hour_1757282400000.json",
+      "request_parameters": {},
+      "downloaded_at_utc": "2026-08-03T18:29:54.160796+00:00",
+      "manifested_at_utc": "2026-08-03T18:59:08.537767+00:00",
+      "cache_hit": true,
+      "local_cache_path": "data/raw/smard/4169_DE-LU_hour_1757282400000.json",
+      "sha256": "03eb17c5d3539ae89c60d701e8b0dd272835b456aeaaa31e227b05b8316d2fbb",
+      "unit": "EUR/MWh"
+    },
+    {
+      "source_url": "https://www.smard.de/app/chart_data/4169/DE-LU/4169_DE-LU_hour_1757887200000.json",
+      "request_parameters": {},
+      "downloaded_at_utc": "2026-08-03T18:29:55.244165+00:00",
+      "manifested_at_utc": "2026-08-03T18:59:08.538116+00:00",
+      "cache_hit": true,
+      "local_cache_path": "data/raw/smard/4169_DE-LU_hour_1757887200000.json",
+      "sha256": "c4d3acca312417f618040d576fda523b74fbc74719d4a9553bf886643324124a",
+      "unit": "EUR/MWh"
+    },
+    {
+      "source_url": "https://www.smard.de/app/chart_data/4169/DE-LU/4169_DE-LU_hour_1758492000000.json",
+      "request_parameters": {},
+      "downloaded_at_utc": "2026-08-03T18:29:55.428026+00:00",
+      "manifested_at_utc": "2026-08-03T18:59:08.538453+00:00",
+      "cache_hit": true,
+      "local_cache_path": "data/raw/smard/4169_DE-LU_hour_1758492000000.json",
+      "sha256": "be9bc558548e63a0810635b06c4b06ae96317ceae2bab1c98b038f2159ef5a78",
+      "unit": "EUR/MWh"
+    },
+    {
+      "source_url": "https://www.smard.de/app/chart_data/4169/DE-LU/4169_DE-LU_hour_1759096800000.json",
+      "request_parameters": {},
+      "downloaded_at_utc": "2026-08-03T18:29:55.633033+00:00",
+      "manifested_at_utc": "2026-08-03T18:59:08.538810+00:00",
+      "cache_hit": true,
+      "local_cache_path": "data/raw/smard/4169_DE-LU_hour_1759096800000.json",
+      "sha256": "2583b9bb6b2df96fdae930c6079379fe4b43b22564e0cbc96e1d12624efdcd6d",
+      "unit": "EUR/MWh"
+    },
+    {
+      "source_url": "https://www.smard.de/app/chart_data/4169/DE-LU/4169_DE-LU_hour_1759701600000.json",
+      "request_parameters": {},
+      "downloaded_at_utc": "2026-08-03T18:29:55.850996+00:00",
+      "manifested_at_utc": "2026-08-03T18:59:08.539153+00:00",
+      "cache_hit": true,
+      "local_cache_path": "data/raw/smard/4169_DE-LU_hour_1759701600000.json",
+      "sha256": "5b831b941be39c0c129ff0f6544ecf2c3818b8a8a81002822cc369ff574bceb7",
+      "unit": "EUR/MWh"
+    },
+    {
+      "source_url": "https://www.smard.de/app/chart_data/4169/DE-LU/4169_DE-LU_hour_1760306400000.json",
+      "request_parameters": {},
+      "downloaded_at_utc": "2026-08-03T18:29:56.086548+00:00",
+      "manifested_at_utc": "2026-08-03T18:59:08.539502+00:00",
+      "cache_hit": true,
+      "local_cache_path": "data/raw/smard/4169_DE-LU_hour_1760306400000.json",
+      "sha256": "76e750355fa33306d63eaaa4f08d1667bf79927893a97b3eba7094a95c99f47b",
+      "unit": "EUR/MWh"
+    },
+    {
+      "source_url": "https://www.smard.de/app/chart_data/4169/DE-LU/4169_DE-LU_hour_1760911200000.json",
+      "request_parameters": {},
+      "downloaded_at_utc": "2026-08-03T18:29:56.332114+00:00",
+      "manifested_at_utc": "2026-08-03T18:59:08.539854+00:00",
+      "cache_hit": true,
+      "local_cache_path": "data/raw/smard/4169_DE-LU_hour_1760911200000.json",
+      "sha256": "10d170fb559088d7d60dcb84a910311a14a8a2a99f156d987ac60c99084d765e",
+      "unit": "EUR/MWh"
+    },
+    {
+      "source_url": "https://www.smard.de/app/chart_data/4169/DE-LU/4169_DE-LU_hour_1761519600000.json",
+      "request_parameters": {},
+      "downloaded_at_utc": "2026-08-03T18:29:56.589458+00:00",
+      "manifested_at_utc": "2026-08-03T18:59:08.540236+00:00",
+      "cache_hit": true,
+      "local_cache_path": "data/raw/smard/4169_DE-LU_hour_1761519600000.json",
+      "sha256": "522f794bcf06c9c12dc0684f61b6b0e630cf9c68a5b1ae8308411335c807c7a6",
+      "unit": "EUR/MWh"
+    },
+    {
+      "source_url": "https://www.smard.de/app/chart_data/4169/DE-LU/4169_DE-LU_hour_1762124400000.json",
+      "request_parameters": {},
+      "downloaded_at_utc": "2026-08-03T18:29:56.805764+00:00",
+      "manifested_at_utc": "2026-08-03T18:59:08.540592+00:00",
+      "cache_hit": true,
+      "local_cache_path": "data/raw/smard/4169_DE-LU_hour_1762124400000.json",
+      "sha256": "4763c5bb0613aeef955012346b70a0962aad23c21e7ef17fd9ff9e7bf96881d5",
+      "unit": "EUR/MWh"
+    },
+    {
+      "source_url": "https://www.smard.de/app/chart_data/4169/DE-LU/4169_DE-LU_hour_1762729200000.json",
+      "request_parameters": {},
+      "downloaded_at_utc": "2026-08-03T18:29:57.110228+00:00",
+      "manifested_at_utc": "2026-08-03T18:59:08.541147+00:00",
+      "cache_hit": true,
+      "local_cache_path": "data/raw/smard/4169_DE-LU_hour_1762729200000.json",
+      "sha256": "42389fd1979a08b04be33a721fb1d229d0a25b5c0f800cc0e4804615391d8a66",
+      "unit": "EUR/MWh"
+    },
+    {
+      "source_url": "https://www.smard.de/app/chart_data/4169/DE-LU/4169_DE-LU_hour_1763334000000.json",
+      "request_parameters": {},
+      "downloaded_at_utc": "2026-08-03T18:29:57.353326+00:00",
+      "manifested_at_utc": "2026-08-03T18:59:08.541517+00:00",
+      "cache_hit": true,
+      "local_cache_path": "data/raw/smard/4169_DE-LU_hour_1763334000000.json",
+      "sha256": "8a6bbc584b9246af44d545d1c772e55ba01a76f7dd920ddbbb58853c1b0fc2f7",
+      "unit": "EUR/MWh"
+    },
+    {
+      "source_url": "https://www.smard.de/app/chart_data/4169/DE-LU/4169_DE-LU_hour_1763938800000.json",
+      "request_parameters": {},
+      "downloaded_at_utc": "2026-08-03T18:29:57.608468+00:00",
+      "manifested_at_utc": "2026-08-03T18:59:08.541867+00:00",
+      "cache_hit": true,
+      "local_cache_path": "data/raw/smard/4169_DE-LU_hour_1763938800000.json",
+      "sha256": "72a93f27864e9cbdb5537c9da978d0bce392b6ca5aa7d60b9781755c3144dd5b",
+      "unit": "EUR/MWh"
+    },
+    {
+      "source_url": "https://www.smard.de/app/chart_data/4169/DE-LU/4169_DE-LU_hour_1764543600000.json",
+      "request_parameters": {},
+      "downloaded_at_utc": "2026-08-03T18:29:57.883088+00:00",
+      "manifested_at_utc": "2026-08-03T18:59:08.542214+00:00",
+      "cache_hit": true,
+      "local_cache_path": "data/raw/smard/4169_DE-LU_hour_1764543600000.json",
+      "sha256": "1ee596482772e3302af8823e73a4cfeed6961a06b7e71dfa271035b9fbd983bf",
+      "unit": "EUR/MWh"
+    },
+    {
+      "source_url": "https://www.smard.de/app/chart_data/4169/DE-LU/4169_DE-LU_hour_1765148400000.json",
+      "request_parameters": {},
+      "downloaded_at_utc": "2026-08-03T18:29:58.144525+00:00",
+      "manifested_at_utc": "2026-08-03T18:59:08.542565+00:00",
+      "cache_hit": true,
+      "local_cache_path": "data/raw/smard/4169_DE-LU_hour_1765148400000.json",
+      "sha256": "95831886ef54a1b25753710d4fe13c1dcfede6b5e38a219df78d06c8e565ac9e",
+      "unit": "EUR/MWh"
+    },
+    {
+      "source_url": "https://www.smard.de/app/chart_data/4169/DE-LU/4169_DE-LU_hour_1765753200000.json",
+      "request_parameters": {},
+      "downloaded_at_utc": "2026-08-03T18:29:58.367186+00:00",
+      "manifested_at_utc": "2026-08-03T18:59:08.542907+00:00",
+      "cache_hit": true,
+      "local_cache_path": "data/raw/smard/4169_DE-LU_hour_1765753200000.json",
+      "sha256": "4d8ec252f6443619aa1b28a61adea0acda340165e3b0228e8d1fa5852cfef9bd",
+      "unit": "EUR/MWh"
+    },
+    {
+      "source_url": "https://www.smard.de/app/chart_data/4169/DE-LU/4169_DE-LU_hour_1766358000000.json",
+      "request_parameters": {},
+      "downloaded_at_utc": "2026-08-03T18:29:58.637815+00:00",
+      "manifested_at_utc": "2026-08-03T18:59:08.543252+00:00",
+      "cache_hit": true,
+      "local_cache_path": "data/raw/smard/4169_DE-LU_hour_1766358000000.json",
+      "sha256": "2f8966810eb7c28e4644b99c6c4dfbf7979d760550208885c525a121a2ed6f62",
+      "unit": "EUR/MWh"
+    },
+    {
+      "source_url": "https://www.smard.de/app/chart_data/4169/DE-LU/4169_DE-LU_hour_1766962800000.json",
+      "request_parameters": {},
+      "downloaded_at_utc": "2026-08-03T18:29:58.870577+00:00",
+      "manifested_at_utc": "2026-08-03T18:59:08.543593+00:00",
+      "cache_hit": true,
+      "local_cache_path": "data/raw/smard/4169_DE-LU_hour_1766962800000.json",
+      "sha256": "4b80ff8316b2268287993e9d1e5a8f3e800d613c66e96246844bd9ec205c8eb0",
+      "unit": "EUR/MWh"
+    }
+  ],
+  "bidding_zone": "DE-LU",
+  "canonical_timezone": "UTC",
+  "market_timezone": "Europe/Berlin",
+  "unit": "EUR/MWh",
+  "requested_start_local": "2023-01-01",
+  "requested_end_local_inclusive": "2025-12-31",
+  "generated_at_utc": "2026-08-03T18:59:11.899468+00:00",
+  "observations": 26304
+}

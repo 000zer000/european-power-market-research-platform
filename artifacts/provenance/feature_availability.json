@@ -1,0 +1,33 @@
+{
+  "status": "pass",
+  "checks": {
+    "lag_24_is_exact_past_value": true,
+    "lag_168_is_exact_past_value": true,
+    "rolling_window_ends_24h_before_target": true,
+    "no_target_column_in_model_features": true,
+    "minimum_price_feature_lag_hours": 24
+  },
+  "forecast_decision": "Forecast the complete delivery day using prices published for earlier day-ahead auctions.",
+  "calendar_features": "Known before the auction.",
+  "price_features": "All source observations are at least 24 delivery hours behind the target.",
+  "features": [
+    "local_hour",
+    "weekday",
+    "month",
+    "is_weekend",
+    "is_holiday",
+    "hour_sin",
+    "hour_cos",
+    "weekday_sin",
+    "weekday_cos",
+    "month_sin",
+    "month_cos",
+    "lag_24h_price",
+    "lag_168h_price",
+    "rolling_24h_mean_lagged_24h",
+    "rolling_168h_mean_lagged_24h",
+    "rolling_168h_std_lagged_24h"
+  ],
+  "warm_up_rows_with_missing_features": 191,
+  "warm_up_policy": "Rows lacking the documented 168-hour history are excluded from model fitting only."
+}

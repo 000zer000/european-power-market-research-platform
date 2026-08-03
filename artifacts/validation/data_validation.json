@@ -1,0 +1,44 @@
+{
+  "status": "pass",
+  "generated_at_utc": "2026-08-03T18:59:11.975404+00:00",
+  "checks": {
+    "required_columns_present": true,
+    "timestamps_valid": true,
+    "timestamps_unique": true,
+    "timestamps_monotonic": true,
+    "numeric_values_finite": true,
+    "no_missing_hourly_utc_observations": true,
+    "no_unexpected_observations": true,
+    "local_day_lengths_valid": true
+  },
+  "summary": {
+    "rows": 26304,
+    "first_timestamp_utc": "2022-12-31T23:00:00+00:00",
+    "last_timestamp_utc": "2025-12-31T22:00:00+00:00",
+    "negative_price_observations": 1331,
+    "zero_price_observations": 168,
+    "minimum_price_eur_per_mwh": -500.0,
+    "maximum_price_eur_per_mwh": 936.28,
+    "missing_observations": 0,
+    "unexpected_observations": 0,
+    "duplicates": 0,
+    "invalid_numeric_values": 0,
+    "spring_dst_23_hour_days": [
+      "2023-03-26",
+      "2024-03-31",
+      "2025-03-30"
+    ],
+    "autumn_dst_25_hour_days": [
+      "2023-10-29",
+      "2024-10-27",
+      "2025-10-26"
+    ],
+    "invalid_local_day_counts": {}
+  },
+  "issues": {
+    "missing_columns": [],
+    "missing_timestamp_examples": [],
+    "unexpected_timestamp_examples": []
+  },
+  "policy": "No values were interpolated, dropped, clipped, deduplicated or imputed."
+}

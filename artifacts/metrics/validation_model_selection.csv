@@ -1,0 +1,9 @@
+model,parameters,validation_mae
+hist_gradient_boosting,"{""learning_rate"": 0.1, ""max_leaf_nodes"": 31}",26.730172023479284
+hist_gradient_boosting,"{""learning_rate"": 0.05, ""max_leaf_nodes"": 15}",26.948906710801868
+hist_gradient_boosting,"{""learning_rate"": 0.05, ""max_leaf_nodes"": 31}",27.04643679171461
+hist_gradient_boosting,"{""learning_rate"": 0.1, ""max_leaf_nodes"": 15}",27.56732648291281
+ridge,"{""alpha"": 100.0}",24.700807999432826
+ridge,"{""alpha"": 10.0}",24.706260457190325
+ridge,"{""alpha"": 1.0}",24.707242993507705
+ridge,"{""alpha"": 0.1}",24.70734900305042

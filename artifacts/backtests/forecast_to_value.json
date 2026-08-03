@@ -1,0 +1,18 @@
+{
+  "previous_day": {
+    "pearson_daily_mae_vs_perfect_value_gap": 0.5717344889606518,
+    "interpretation": "Positive means larger price error tends to accompany a larger value gap; correlation is not causation."
+  },
+  "previous_week": {
+    "pearson_daily_mae_vs_perfect_value_gap": 0.3000736583871663,
+    "interpretation": "Positive means larger price error tends to accompany a larger value gap; correlation is not causation."
+  },
+  "ridge": {
+    "pearson_daily_mae_vs_perfect_value_gap": 0.4342840641151072,
+    "interpretation": "Positive means larger price error tends to accompany a larger value gap; correlation is not causation."
+  },
+  "hist_gradient_boosting": {
+    "pearson_daily_mae_vs_perfect_value_gap": 0.41826228920580294,
+    "interpretation": "Positive means larger price error tends to accompany a larger value gap; correlation is not causation."
+  }
+}
