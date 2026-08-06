@@ -32,6 +32,23 @@ jobs:
       - run: mypy src
       - run: pytest --cov=power_market --cov-report=term-missing --cov-fail-under=85
 
+  research-artifact-contract:
+    runs-on: ubuntu-latest
+    env:
+      MPLCONFIGDIR: /tmp/matplotlib
+      XDG_CACHE_HOME: /tmp/cache
+      LOKY_MAX_CPU_COUNT: "2"
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: python -m pip install --upgrade pip
+      - run: python -m pip install -e .
+      - name: Verify committed research evidence
+        run: python tools/validate_research_artifacts.py
+
   security:
     runs-on: ubuntu-latest
     steps:
@@ -39,6 +56,8 @@ jobs:
         with:
           fetch-depth: 0
       - uses: gitleaks/gitleaks-action@v3
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
   links:
     runs-on: ubuntu-latest
