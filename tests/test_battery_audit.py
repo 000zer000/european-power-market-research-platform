@@ -55,6 +55,14 @@ def test_forged_throughput_is_rejected(battery):
         evaluate_schedule(schedule, [0, 100], battery)
 
 
+def test_audit_and_settlement_use_the_same_numeric_conversion(battery):
+    schedule = optimise_schedule([0, 100], battery).schedule
+    expected = evaluate_schedule(schedule, [0, 100], battery)
+    for column in schedule.columns.difference(["timestamp"]):
+        schedule[column] = schedule[column].astype(str)
+    assert evaluate_schedule(schedule, [0, 100], battery) == expected
+
+
 @pytest.mark.parametrize(
     "column",
     [
