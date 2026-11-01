@@ -153,7 +153,7 @@ pytest --cov=power_market --cov-report=term-missing --cov-fail-under=85
 
 Tests cover API parsing, schema changes, nullable and negative values, cache provenance, gaps/duplicates, both DST transitions, leakage invariants, split isolation, deterministic models, metrics, state equations, efficiencies, terminal SoC, binary exclusivity, degradation, actual-price settlement, perfect-foresight bounds, 23/25-interval optimization and an offline end-to-end run.
 
-The 1 November 2026 verification passed **81 tests with 90.98% branch coverage**, including adversarial schedules and a complete offline pipeline. The earlier 37-test gate remains part of the historical record.
+The 1 November 2026 verification passed **82 tests with 90.98% branch coverage**, including adversarial schedules and a complete offline pipeline. The earlier 37-test gate remains part of the historical record.
 
 The [battery-audit verification](docs/BATTERY_AUDIT_2026-11-01.md) independently rechecks all 2,555 published daily schedules and reconciles their accounting. All published values remain unchanged.
 

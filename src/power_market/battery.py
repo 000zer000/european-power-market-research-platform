@@ -266,11 +266,14 @@ def evaluate_schedule(
         stamps = pd.DatetimeIndex(pd.to_datetime(schedule["timestamp"], utc=True))
         if not stamps.equals(actual_prices.index.tz_convert("UTC")):
             raise ValueError("actual_prices timestamps must match the schedule in order")
-    duration = schedule["duration_hours"].to_numpy()
+    duration = schedule["duration_hours"].to_numpy(dtype=float)
     gross = float(
         np.sum(
             actual
-            * (schedule["discharge_mw"].to_numpy() - schedule["charge_mw"].to_numpy())
+            * (
+                schedule["discharge_mw"].to_numpy(dtype=float)
+                - schedule["charge_mw"].to_numpy(dtype=float)
+            )
             * duration
         )
     )

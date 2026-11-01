@@ -23,7 +23,7 @@ Unindexed vectors are positional and cannot establish their own time provenance.
 ## Verification performed
 
 - Python 3.12.14, pinned project direct dependencies, native SciPy/HiGHS.
-- 81 tests passed, zero skipped; 90.98% measured branch coverage.
+- 82 tests passed, zero skipped; 90.98% measured branch coverage.
 - Ruff check/format and strict source Mypy passed.
 - Offline complete pipeline ran inside integration tests, including its separate
   stages and outputs, using temporary directories.
@@ -39,3 +39,7 @@ Run `python tools/validate_research_artifacts.py` after installing the project.
 The CI evidence-contract job executes this enhanced check on future changes.
 The original trading-cost, daily terminal-state and historical-simulation limits
 remain. No simulated value is asserted to be real trading profit.
+
+A follow-up regression keeps audit and settlement numeric conversion consistent,
+including finite physical values supplied as numeric strings. This does not change
+any published schedule or value.
