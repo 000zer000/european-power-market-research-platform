@@ -16,6 +16,9 @@ from typing import Any
 
 import pandas as pd
 
+from power_market.battery import evaluate_schedule
+from power_market.config import load_settings
+
 MODELS = ("previous_day", "previous_week", "ridge", "hist_gradient_boosting")
 EXPECTED_PREDICTION_COLUMNS = {
     "timestamp_utc",
@@ -159,6 +162,34 @@ def validate_battery_results(root: Path, predictions: pd.DataFrame) -> None:
     battery_days = set(frame["local_date"].astype(str).unique())
     if prediction_days != battery_days:
         raise ContractError("prediction and battery-result local-date coverage differ")
+
+    # Audit interval physics independently, then reconcile every daily metric.
+    dispatch = pd.read_csv(root / "artifacts/backtests/battery_dispatch.csv")
+    require_columns(
+        dispatch, {"local_date", "strategy", "timestamp", "actual_price_eur_per_mwh"}, path
+    )
+    battery = load_settings(root / "configs/default.yaml").battery
+    daily = frame.set_index(["local_date", "strategy"], verify_integrity=True)
+    actual_by_stamp = predictions.set_index("timestamp_utc")["actual_price"]
+    actual_by_stamp.index = pd.to_datetime(actual_by_stamp.index, utc=True)
+    groups = dispatch.groupby(["local_date", "strategy"], sort=False)
+    if set(groups.groups) != set(daily.index):
+        raise ContractError("dispatch and daily result horizons differ")
+    for key, schedule in groups:
+        stamps = pd.DatetimeIndex(pd.to_datetime(schedule["timestamp"], utc=True))
+        actual = actual_by_stamp.reindex(stamps)
+        if actual.isna().any():
+            raise ContractError(f"dispatch contains an unknown prediction timestamp: {key}")
+        published_actual = schedule["actual_price_eur_per_mwh"].to_numpy(dtype=float)
+        if not (published_actual == actual.to_numpy()).all():
+            raise ContractError(f"dispatch settlement prices differ from predictions: {key}")
+        try:
+            values = evaluate_schedule(schedule, actual, battery)
+        except (ValueError, RuntimeError) as exc:
+            raise ContractError(f"invalid dispatch {key}: {exc}") from exc
+        require_close(float(len(schedule)), float(daily.loc[key, "intervals"]), f"{key} intervals")
+        for metric, value in values.items():
+            require_close(value, float(daily.loc[key, metric]), f"{key} {metric}")
 
 
 def validate_forecast_to_value(root: Path, predictions: pd.DataFrame) -> None:
