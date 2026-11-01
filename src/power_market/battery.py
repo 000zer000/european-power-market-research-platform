@@ -147,30 +147,111 @@ def optimise_schedule(
 
 
 def audit_schedule(schedule: pd.DataFrame, battery: BatteryConfig, tolerance: float = 1e-6) -> None:
-    """Independently verify every returned physical constraint."""
-    charge = schedule["charge_mw"].to_numpy()
-    discharge = schedule["discharge_mw"].to_numpy()
-    duration = schedule["duration_hours"].to_numpy()
-    start = schedule["soc_start_mwh"].to_numpy()
-    end = schedule["soc_end_mwh"].to_numpy()
+    """Verify an external schedule using absolute MW/MWh tolerances, never relative ones.
+
+    Datetime starts must be contiguous in UTC with the declared durations. Numeric
+    timestamps are strictly increasing interval identifiers, not elapsed hours.
+    Derived throughput is checked against physical flows, not trusted as input.
+    """
+    if not np.isfinite(tolerance) or tolerance <= 0:
+        raise ValueError("tolerance must be finite and positive")
+    required = {
+        "timestamp",
+        "duration_hours",
+        "charge_mw",
+        "discharge_mw",
+        "soc_start_mwh",
+        "soc_end_mwh",
+        "internal_throughput_mwh",
+    }
+    if schedule.empty:
+        raise OptimisationError("schedule must be nonempty")
+    if not schedule.columns.is_unique:
+        raise OptimisationError("schedule columns must be unique")
+    missing = required.difference(schedule.columns)
+    if missing:
+        raise OptimisationError(f"schedule is missing columns: {sorted(missing)}")
+    numeric = required - {"timestamp"}
+    numeric.update({"decision_price_eur_per_mwh", "charge_mode"}.intersection(schedule.columns))
+    for column in sorted(numeric):
+        try:
+            values = schedule[column].to_numpy(dtype=float)
+        except (TypeError, ValueError) as exc:
+            raise OptimisationError(f"{column} must contain finite numeric values") from exc
+        if not np.isfinite(values).all():
+            raise OptimisationError(f"{column} must contain finite numeric values")
+    charge = schedule["charge_mw"].to_numpy(dtype=float)
+    discharge = schedule["discharge_mw"].to_numpy(dtype=float)
+    duration = schedule["duration_hours"].to_numpy(dtype=float)
+    start = schedule["soc_start_mwh"].to_numpy(dtype=float)
+    end = schedule["soc_end_mwh"].to_numpy(dtype=float)
+    if (duration <= 0).any():
+        raise OptimisationError("duration_hours must be positive")
+    _audit_timestamps(schedule, duration)
+    if (
+        (start < battery.min_soc_mwh - tolerance).any()
+        or (start > battery.max_soc_mwh + tolerance).any()
+        or (end < battery.min_soc_mwh - tolerance).any()
+        or (end > battery.max_soc_mwh + tolerance).any()
+    ):
+        raise OptimisationError("schedule violates state-of-charge bounds")
+    if not np.allclose(end[:-1], start[1:], atol=tolerance, rtol=0):
+        raise OptimisationError("schedule violates state-of-charge continuity")
     expected_end = (
         start
         + battery.charge_efficiency * charge * duration
         - discharge * duration / battery.discharge_efficiency
     )
     checks = [
-        np.allclose(end, expected_end, atol=tolerance),
+        np.allclose(end, expected_end, atol=tolerance, rtol=0),
         (charge >= -tolerance).all() and (charge <= battery.max_charge_power_mw + tolerance).all(),
         (discharge >= -tolerance).all()
         and (discharge <= battery.max_discharge_power_mw + tolerance).all(),
-        (start >= battery.min_soc_mwh - tolerance).all()
-        and (end <= battery.max_soc_mwh + tolerance).all(),
         not ((charge > tolerance) & (discharge > tolerance)).any(),
         abs(start[0] - battery.initial_soc_mwh) <= tolerance,
         abs(end[-1] - battery.terminal_soc_mwh) <= tolerance,
     ]
     if not all(checks):
         raise OptimisationError(f"post-solve physical audit failed: {checks}")
+    throughput = duration * (
+        battery.charge_efficiency * charge + discharge / battery.discharge_efficiency
+    )
+    if not np.isfinite(throughput).all() or not np.allclose(
+        schedule["internal_throughput_mwh"].to_numpy(dtype=float),
+        throughput,
+        atol=tolerance,
+        rtol=0,
+    ):
+        raise OptimisationError("stored internal throughput disagrees with physical flows")
+    if "charge_mode" in schedule:
+        mode = schedule["charge_mode"].to_numpy(dtype=float)
+        if not (
+            (
+                np.isclose(mode, 0, atol=tolerance, rtol=0)
+                | np.isclose(mode, 1, atol=tolerance, rtol=0)
+            ).all()
+            and (charge <= battery.max_charge_power_mw * mode + tolerance).all()
+            and (discharge <= battery.max_discharge_power_mw * (1 - mode) + tolerance).all()
+        ):
+            raise OptimisationError("charge_mode must be binary and consistent with power flows")
+
+
+def _audit_timestamps(schedule: pd.DataFrame, durations: np.ndarray) -> None:
+    stamps = schedule["timestamp"]
+    if pd.api.types.is_numeric_dtype(stamps.dtype):
+        values = stamps.to_numpy(dtype=float)
+        if not np.isfinite(values).all() or not (np.diff(values) > 0).all():
+            raise OptimisationError("numeric timestamps must be finite and strictly increasing")
+        return
+    try:
+        utc = pd.DatetimeIndex(pd.to_datetime(stamps, utc=True, errors="raise"))
+    except (TypeError, ValueError) as exc:
+        raise OptimisationError("timestamps must be valid datetime interval starts") from exc
+    if utc.hasnans or utc.has_duplicates or not utc.is_monotonic_increasing:
+        raise OptimisationError("timestamps must be present, unique and strictly increasing")
+    elapsed_hours = np.asarray((utc[1:] - utc[:-1]).total_seconds(), dtype=float) / 3600
+    if not np.allclose(elapsed_hours, durations[:-1], atol=1e-9, rtol=0):
+        raise OptimisationError("timestamp spacing must match duration_hours in UTC")
 
 
 def evaluate_schedule(
@@ -181,6 +262,10 @@ def evaluate_schedule(
     if len(actual) != len(schedule):
         raise ValueError("actual_prices must match every scheduled interval")
     audit_schedule(schedule, battery)
+    if isinstance(actual_prices, pd.Series) and isinstance(actual_prices.index, pd.DatetimeIndex):
+        stamps = pd.DatetimeIndex(pd.to_datetime(schedule["timestamp"], utc=True))
+        if not stamps.equals(actual_prices.index.tz_convert("UTC")):
+            raise ValueError("actual_prices timestamps must match the schedule in order")
     duration = schedule["duration_hours"].to_numpy()
     gross = float(
         np.sum(
@@ -189,8 +274,18 @@ def evaluate_schedule(
             * duration
         )
     )
-    throughput = float(schedule["internal_throughput_mwh"].sum())
+    throughput = float(
+        np.sum(
+            duration
+            * (
+                battery.charge_efficiency * schedule["charge_mw"].to_numpy(dtype=float)
+                + schedule["discharge_mw"].to_numpy(dtype=float) / battery.discharge_efficiency
+            )
+        )
+    )
     degradation = battery.degradation_cost_eur_per_mwh * throughput
+    if not np.isfinite([gross, throughput, degradation, gross - degradation]).all():
+        raise OptimisationError("realised schedule accounting must be finite")
     usable_range = battery.max_soc_mwh - battery.min_soc_mwh
     return {
         "realised_gross_market_revenue_eur": gross,
